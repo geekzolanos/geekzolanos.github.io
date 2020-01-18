@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Indice de aplicaciones</title>
+
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles-merged.css">
+  <link rel="stylesheet" href="css/style.min.css">
+  <link rel="stylesheet" href="css/custom.css">
+
+  <!--[if lt IE 9]>
+      <script src="js/vendor/html5shiv.min.js"></script>
+      <script src="js/vendor/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+
+  <!-- START: header -->
+
+  <div class="probootstrap-loader"></div>
+
+  <header role="banner" class="probootstrap-header">
+    <div class="container">
+      <a href="index.html" class="probootstrap-logo">#Geekzolanos</a>
+
+      <a href="#" class="probootstrap-burger-menu visible-xs"><i>Menu</i></a>
+      <div class="mobile-menu-overlay"></div>
+
+      <nav role="navigation" class="probootstrap-nav hidden-xs">
+        <ul class="probootstrap-main-nav">
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="about.html">Acerca</a></li>
+          <li class="active"><a href="projects.html">Proyectos</a></li>
+        </ul>
+        <div class="extra-text visible-xs">
+          <a href="#" class="probootstrap-burger-menu"><i>Menu</i></a>
+        </div>
+      </nav>
+    </div>
+  </header>
+  <!-- END: header -->
+
+  <div class="probootstrap-main">
+
+    <section class="probootstrap-section-half probootstrap-no-hover">
+      <div class="probootstrap-image" style="background-image: url(img/image_3.jpg)">
+        <img class="app-image">
+      </div>
+      <div class="probootstrap-text">
+        <div class="probootstrap-inner probootstrap-animate">
+          <h1 class="heading">Cargando...</h1>
+          <p class="bg-warning hidden dev">En desarrollo</p>
+          <p><strong>Descripcion:</strong><br><span class="app-description">Por favor, espere...</span></p>
+          <p><strong>Codigo de version:</strong><br><span class="app-version">0</span></p>
+          <br>
+
+          <div id="btns-details" class="container-fluid">
+            <div class="row">
+              <div>
+                <a href="#" target="_blank" class="btn btn-primary btn-block btn-outline app-btn-dwnld"><i
+                    class="icon-download3"></i> <span>Descargar ahora</span></a>
+              </div>
+              <div>
+                <a href="#" target="_blank" class="btn btn-primary btn-block btn-outline app-btn-repo"><i
+                    class="icon-github"></i>Ir a Repositorio</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- END section -->
+
+
+  </div>
+  <footer class="probootstrap-footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <p>Designed &amp; Developed by <a href="https://uicookies.com">uiCookies</a></p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+
+  <div class="gototop js-top">
+    <a href="#" class="js-gotop"><i class="icon-chevron-thin-up"></i></a>
+  </div>
+
+
+  <script src="js/scripts.min.js"></script>
+  <script src="js/main.min.js"></script>
+  <script src="js/custom.js"></script>
+  <script>
+    $(function () {
+      window.RepoManager.parseRepositoryDetail();
+    })
+  </script>
+</body>
+
+</html>
