@@ -17,8 +17,8 @@
             "description": "Un lanzador diseñado para dispositivos de bajos recursos que busca un rendimiento fluido, proporcionando una apariencia moderna y agradable.",
             "version": "1.3",
             "images": {
-                "thumbnail": "./resources/images/thumbs/com.geekzolanos.agile.jpg",
-                "src": "./resources/images/com.geekzolanos.agile.jpg"
+                "thumbnail": "./resources/images/thumbs/com.geekzolanos.agile.png",
+                "src": "./resources/images/com.geekzolanos.agile.png"
             },
             "url": "https://play.google.com/store/apps/details?id=com.geekzolanos.agile"
         },
