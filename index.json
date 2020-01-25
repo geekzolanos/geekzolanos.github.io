@@ -57,7 +57,6 @@
         },
         "com.gk.speedgps": {
             "type": "web",
-            "inDev": "true",
             "name": "SpeedGPS",
             "description": "PWA desarrollada inicialmente para la Firefox Marketplace. Comprueba la velocidad actual utilizando tecnicas de geolocalizacion.",
             "version": "2.1",
@@ -65,7 +64,8 @@
                 "thumbnail": "./resources/images/thumbs/com.gk.speedgps.jpg",
                 "src": "./resources/images/com.gk.speedgps.jpg"
             },
-            "url": "#"
+            "url": "https://geekzolanos.github.io/webapps/speedgps/",
+            "repoUrl": "https://github.com/geekzolanos/speedgps-webapp/"
         }
     }
 }

@@ -1,0 +1,29 @@
+{
+  "background_color": "#FFF",
+  "display": "standalone",
+  "name": "SpeedGPS",
+  "short_name": "SpeedGPS",
+  "version": "com.gk.speedgps",
+  "description": "Compruebe la velocidad actual utilizando tecnicas de geolocalizacion.",
+  "author": "David Romero",
+  "icons": [
+    {
+      "src": "res/logo48.png",
+      "type": "image/png",
+      "sizes": "48x48"
+    },
+    {
+      "src": "res/logo96.png",
+      "type": "image/png",
+      "sizes": "96x96"
+    },
+    {
+      "src": "res/logo192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    }
+  ],
+  "orientation": "portrait",
+  "start_url": "index.html",
+  "theme_color": "#000"
+}

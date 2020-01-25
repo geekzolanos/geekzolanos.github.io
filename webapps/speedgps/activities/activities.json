@@ -1,0 +1,38 @@
+{
+	"base": {		
+		"activities": {
+			"boot": {"title": "Inicializando"}
+		}
+	},
+	"gauges": {
+		"activities": {
+			"defaultGauge": {}
+		}
+	},
+	"views": {
+		"activities": {
+			"main": {"title": "Vista Principal"},
+			"moreInfo": {"title": "Información Avanzada"},
+			"about": {"title": "Acerca de"}
+		}
+	},
+	"testing": {
+		"activities": {
+			"colors": {}
+		}
+	},
+	"extras": {
+		"activities": {
+			"thirdParty": {"title": "Acerca de"},
+			"donate": {"title": "Colabora con nosotros"}
+		}
+	},
+	"preferences": {
+		"activities": {
+			"p_main": {"title": "Preferencias"},
+			"p_gps": {"title": "Preferencias - GPS"},
+			"p_notify": {"title": "Preferencias - Notificaciones"},
+			"p_units": {"title": "Preferencias - Unidades"}
+		}
+	}
+}

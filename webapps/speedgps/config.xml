@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.gk.speedgps" version="2.2.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>SpeedGPS</name>
+    <description>
+        Compruebe la velocidad actual utilizando tecnicas de geolocalizacion.
+    </description>
+    <author email="geekzolanos@gmail.com" href="https://geekzolanos.github.io">
+        David Romero
+    </author>
+    <icon height="48" src="res/logo48.png" width="48" />
+    <icon height="96" src="res/logo96.png" width="96" />
+    <icon height="192" src="res/logo192.png" width="192" />
+    <content src="index.html" />
+    <access origin="*" />
+    <allow-intent href="https://*/*" />
+    <preference name="Orientation" value="portrait" />
+</widget>

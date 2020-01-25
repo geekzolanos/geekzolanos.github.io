@@ -1,0 +1,2214 @@
+/*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
+
+/**
+ * 1. Set default font family to sans-serif.
+ * 2. Prevent iOS and IE text size adjust after device orientation change,
+ *    without disabling user zoom.
+ */
+
+html {
+  font-family: sans-serif; /* 1 */
+  -ms-text-size-adjust: 100%; /* 2 */
+  -webkit-text-size-adjust: 100%; /* 2 */
+}
+
+/**
+ * Remove default margin.
+ */
+
+body {
+  margin: 0;
+}
+
+/* HTML5 display definitions
+   ========================================================================== */
+
+/**
+ * Correct `block` display not defined for any HTML5 element in IE 8/9.
+ * Correct `block` display not defined for `details` or `summary` in IE 10/11
+ * and Firefox.
+ * Correct `block` display not defined for `main` in IE 11.
+ */
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+menu,
+nav,
+section,
+summary {
+  display: block;
+}
+
+/**
+ * 1. Correct `inline-block` display not defined in IE 8/9.
+ * 2. Normalize vertical alignment of `progress` in Chrome, Firefox, and Opera.
+ */
+
+audio,
+canvas,
+progress,
+video {
+  display: inline-block; /* 1 */
+  vertical-align: baseline; /* 2 */
+}
+
+/**
+ * Prevent modern browsers from displaying `audio` without controls.
+ * Remove excess height in iOS 5 devices.
+ */
+
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+
+/**
+ * Address `[hidden]` styling not present in IE 8/9/10.
+ * Hide the `template` element in IE 8/9/10/11, Safari, and Firefox < 22.
+ */
+
+[hidden],
+template {
+  display: none;
+}
+
+/* Links
+   ========================================================================== */
+
+/**
+ * Remove the gray background color from active links in IE 10.
+ */
+
+a {
+  background-color: transparent;
+}
+
+/**
+ * Improve readability of focused elements when they are also in an
+ * active/hover state.
+ */
+
+a:active,
+a:hover {
+  outline: 0;
+}
+
+/* Text-level semantics
+   ========================================================================== */
+
+/**
+ * Address styling not present in IE 8/9/10/11, Safari, and Chrome.
+ */
+
+abbr[title] {
+  border-bottom: 1px dotted;
+}
+
+/**
+ * Address style set to `bolder` in Firefox 4+, Safari, and Chrome.
+ */
+
+b,
+strong {
+  font-weight: bold;
+}
+
+/**
+ * Address styling not present in Safari and Chrome.
+ */
+
+dfn {
+  font-style: italic;
+}
+
+/**
+ * Address variable `h1` font-size and margin within `section` and `article`
+ * contexts in Firefox 4+, Safari, and Chrome.
+ */
+
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+/**
+ * Address styling not present in IE 8/9.
+ */
+
+mark {
+  background: #ff0;
+  color: #000;
+}
+
+/**
+ * Address inconsistent and variable font size in all browsers.
+ */
+
+small {
+  font-size: 80%;
+}
+
+/**
+ * Prevent `sub` and `sup` affecting `line-height` in all browsers.
+ */
+
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sup {
+  top: -0.5em;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+/* Embedded content
+   ========================================================================== */
+
+/**
+ * Remove border when inside `a` element in IE 8/9/10.
+ */
+
+img {
+  border: 0;
+}
+
+/**
+ * Correct overflow not hidden in IE 9/10/11.
+ */
+
+svg:not(:root) {
+  overflow: hidden;
+}
+
+/* Grouping content
+   ========================================================================== */
+
+/**
+ * Address margin not present in IE 8/9 and Safari.
+ */
+
+figure {
+  margin: 1em 40px;
+}
+
+/**
+ * Address differences between Firefox and other browsers.
+ */
+
+hr {
+  box-sizing: content-box;
+  height: 0;
+}
+
+/**
+ * Contain overflow in all browsers.
+ */
+
+pre {
+  overflow: auto;
+}
+
+/**
+ * Address odd `em`-unit font size rendering in all browsers.
+ */
+
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
+
+/* Forms
+   ========================================================================== */
+
+/**
+ * Known limitation: by default, Chrome and Safari on OS X allow very limited
+ * styling of `select`, unless a `border` property is set.
+ */
+
+/**
+ * 1. Correct color not being inherited.
+ *    Known issue: affects color of disabled elements.
+ * 2. Correct font properties not being inherited.
+ * 3. Address margins set differently in Firefox 4+, Safari, and Chrome.
+ */
+
+button,
+input,
+optgroup,
+select,
+textarea {
+  color: inherit; /* 1 */
+  font: inherit; /* 2 */
+  margin: 0; /* 3 */
+}
+
+/**
+ * Address `overflow` set to `hidden` in IE 8/9/10/11.
+ */
+
+button {
+  overflow: visible;
+}
+
+/**
+ * Address inconsistent `text-transform` inheritance for `button` and `select`.
+ * All other form control elements do not inherit `text-transform` values.
+ * Correct `button` style inheritance in Firefox, IE 8/9/10/11, and Opera.
+ * Correct `select` style inheritance in Firefox.
+ */
+
+button,
+select {
+  text-transform: none;
+}
+
+/**
+ * 1. Avoid the WebKit bug in Android 4.0.* where (2) destroys native `audio`
+ *    and `video` controls.
+ * 2. Correct inability to style clickable `input` types in iOS.
+ * 3. Improve usability and consistency of cursor style between image-type
+ *    `input` and others.
+ */
+
+button,
+html input[type="button"], /* 1 */
+input[type="reset"],
+input[type="submit"] {
+  -webkit-appearance: button; /* 2 */
+  cursor: pointer; /* 3 */
+}
+
+/**
+ * Re-set default cursor for disabled elements.
+ */
+
+button[disabled],
+html input[disabled] {
+  cursor: default;
+}
+
+/**
+ * Remove inner padding and border in Firefox 4+.
+ */
+
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+/**
+ * Address Firefox 4+ setting `line-height` on `input` using `!important` in
+ * the UA stylesheet.
+ */
+
+input {
+  line-height: normal;
+}
+
+/**
+ * It's recommended that you don't attempt to style these elements.
+ * Firefox's implementation doesn't respect box-sizing, padding, or width.
+ *
+ * 1. Address box sizing set to `content-box` in IE 8/9/10.
+ * 2. Remove excess padding in IE 8/9/10.
+ */
+
+input[type="checkbox"],
+input[type="radio"] {
+  box-sizing: border-box; /* 1 */
+  padding: 0; /* 2 */
+}
+
+/**
+ * Fix the cursor style for Chrome's increment/decrement buttons. For certain
+ * `font-size` values of the `input`, it causes the cursor style of the
+ * decrement button to change from `default` to `text`.
+ */
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/**
+ * 1. Address `appearance` set to `searchfield` in Safari and Chrome.
+ * 2. Address `box-sizing` set to `border-box` in Safari and Chrome.
+ */
+
+input[type="search"] {
+  -webkit-appearance: textfield; /* 1 */
+  box-sizing: content-box; /* 2 */
+}
+
+/**
+ * Remove inner padding and search cancel button in Safari and Chrome on OS X.
+ * Safari (but not Chrome) clips the cancel button when the search input has
+ * padding (and `textfield` appearance).
+ */
+
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/**
+ * Define consistent border, margin, and padding.
+ */
+
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em;
+}
+
+/**
+ * 1. Correct `color` not being inherited in IE 8/9/10/11.
+ * 2. Remove padding so people aren't caught out if they zero out fieldsets.
+ */
+
+legend {
+  border: 0; /* 1 */
+  padding: 0; /* 2 */
+}
+
+/**
+ * Remove default vertical scrollbar in IE 8/9/10/11.
+ */
+
+textarea {
+  overflow: auto;
+}
+
+/**
+ * Don't inherit the `font-weight` (applied by a rule above).
+ * NOTE: the default cannot safely be changed in Chrome and Safari on OS X.
+ */
+
+optgroup {
+  font-weight: bold;
+}
+
+/* Tables
+   ========================================================================== */
+
+/**
+ * Remove most spacing between table cells.
+ */
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+td,
+th {
+  padding: 0;
+}
+
+/* ----------------------------------
+ * Action menu
+ * ---------------------------------- */
+
+
+/* Main dialog setup */
+
+[role="dialog"][data-type="action"] {
+    background: #2d2d2d;
+    overflow: hidden;
+    position: fixed;
+    z-index: 100;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 0 0 7rem;
+    /**
+   * Using "font-size: 0" to avoid the unwanted visual space (about 3px) created
+   * by white spaces and line breaks in the code between inline-block elements.
+   */
+    font-size: 0;
+    color: #fff;
+}
+
+[role="dialog"][data-type="action"]:before {
+    content: '';
+    display: inline-block;
+    vertical-align: top;
+    width: 0.1rem;
+    height: 100%;
+    margin-left: -0.1rem;
+}
+
+[role="dialog"][data-type="action"]>header {
+    -moz-box-sizing: border-box;
+    font-size: 1.6rem;
+    background: url(action_menu/images/ui/alpha.png) repeat 0 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+    height: 5rem;
+    line-height: 4.9rem;
+    color: #fff;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    display: block;
+    overflow: hidden;
+    font-weight: normal;
+    padding: 0 3rem;
+    border-bottom: 0.1rem solid #616262;
+}
+
+[role="dialog"][data-type="action"]>header h1 {
+    font-size: 1.6rem;
+    line-height: 4.9rem;
+    text-align: left;
+    color: #fff;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    display: block;
+    overflow: hidden;
+    margin: 0;
+    height: 100%;
+    font-weight: normal;
+}
+
+
+/* Generic set of actions in toolbar */
+
+[role="dialog"][data-type="action"]>header menu[type="toolbar"] {
+    height: 100%;
+    float: right;
+    margin: 0 -3rem 0 1rem;
+    padding: 0;
+}
+
+[role="dialog"][data-type="action"]>header menu[type="toolbar"] a,
+[role="dialog"][data-type="action"]>header menu[type="toolbar"] button {
+    -moz-box-sizing: border-box;
+    position: relative;
+    float: left;
+    width: auto;
+    min-width: 5rem;
+    height: 4.9rem;
+    margin-bottom: 0;
+    padding: 0 1rem;
+    border-radius: 0;
+    line-height: 4.9rem;
+    background: none;
+    text-align: center;
+    text-shadow: none;
+    z-index: 5;
+}
+
+[role="dialog"][data-type="action"]>header a,
+[role="dialog"][data-type="action"]>header button {
+    border: none;
+    padding: 0;
+    overflow: hidden;
+    font-weight: 400;
+    font-size: 1.5rem;
+    line-height: 1.1em;
+    color: #fff;
+    border-radius: 0;
+    text-decoration: none;
+}
+
+[role="dialog"][data-type="action"] button::-moz-focus-inner {
+    outline: none;
+    border: none;
+}
+
+
+/* Pressed state */
+
+[role="dialog"][data-type="action"]>header a:active .icon:after,
+[role="dialog"][data-type="action"]>header button:active .icon:after,
+[role="dialog"][data-type="action"]>header menu[type="toolbar"] a:active,
+[role="dialog"][data-type="action"]>header menu[type="toolbar"] button:active {
+    background: #008aaa !important;
+}
+
+
+/* Disabled state */
+
+[role="dialog"][data-type="action"]>header menu[type="toolbar"] a[aria-disabled="true"],
+[role="dialog"][data-type="action"]>header menu[type="toolbar"] button[disabled] {
+    opacity: 0.5;
+    pointer-events: none;
+}
+
+
+/* Icon definitions */
+
+[role="dialog"][data-type="action"]>header .icon {
+    position: relative;
+    float: none;
+    display: inline-block;
+    vertical-align: top;
+    width: 4rem;
+    height: 4.9rem;
+    margin: 0 -1rem;
+    background: transparent no-repeat center center / 3rem auto;
+    font-size: 0;
+    overflow: hidden;
+}
+
+
+/* Navigation links (back, cancel, etc) */
+
+[role="dialog"][data-type="action"]>header>button,
+[role="dialog"][data-type="action"]>header>a {
+    float: left;
+    width: 5rem;
+    height: 4.9rem;
+    background: none;
+    overflow: visible;
+    margin: 0 -1rem 0 -3rem;
+    position: relative;
+}
+
+[role="dialog"][data-type="action"]>header>button:after,
+[role="dialog"][data-type="action"]>header>a:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 3.2rem;
+    height: 4.9rem;
+    background: url(action_menu/images/ui/separator.png) no-repeat 3rem top / 0.1rem 4.8rem;
+}
+
+[role="dialog"][data-type="action"]>header>button::-moz-focus-inner {
+    border: 0;
+    padding: 0;
+}
+
+[role="dialog"][data-type="action"]>header>button .icon,
+[role="dialog"][data-type="action"]>header>a .icon {
+    position: static;
+    display: block;
+    width: 3rem;
+    height: 4.9rem;
+    margin: 0;
+    overflow: visible;
+    font-size: 0;
+}
+
+[role="dialog"][data-type="action"]>header>button .icon:after,
+[role="dialog"][data-type="action"]>header>a .icon:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -1;
+    width: 3rem;
+    height: 4.9rem;
+}
+
+
+/* Content */
+
+[role="dialog"][data-type="action"]>section {
+    color: #fff;
+    position: absolute;
+    top: 7rem;
+    left: 1.5rem;
+    right: 1.5rem;
+    bottom: 2rem;
+    font-size: 1.6rem;
+    overflow: scroll;
+}
+
+
+/* Specific component code */
+
+[role="dialog"][data-type="action"]>menu {
+    margin: 0;
+    padding: 0;
+    max-height: calc(100% - 13.5rem);
+    /*header(5rem) + footer(7rem) + padding(1.5rem)*/
+    height: auto;
+    padding-top: 1.5rem;
+    overflow: auto;
+    width: auto;
+    border: none;
+    background: none;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 7rem;
+}
+
+[role="dialog"][data-type="action"]>menu>button {
+    width: calc(100% - 3rem);
+    height: 4rem;
+    -moz-box-sizing: border-box;
+    vertical-align: middle;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    font-weight: normal;
+    line-height: 4rem;
+    outline: none;
+    font-size: 1.6rem;
+    text-shadow: none;
+    text-align: left;
+    padding: 0 1.2rem;
+    margin: 0 1.5rem 1rem 1.5rem;
+    background: rgba(87, 87, 87, 0.8);
+    border: none;
+    border-radius: 0;
+    position: relative;
+    color: #fff;
+    font-family: sans-serif;
+    font-style: italic;
+}
+
+[role="dialog"][data-type="action"]>menu>button:last-child {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    color: #333;
+    background: #d8d8d8;
+    text-align: center;
+    border: none;
+    margin-bottom: 1.5rem;
+    border-radius: 2rem;
+}
+
+[role="dialog"][data-type="action"]>menu>button:last-child:before {
+    content: '';
+    position: fixed;
+    width: 100%;
+    background: #2D2D2D;
+    height: 7rem;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+[role="dialog"][data-type="action"]>menu>button:nth-last-child(2) {
+    margin-bottom: 1.5rem;
+}
+
+
+/* Press state */
+
+[role="dialog"][data-type="action"]>menu>button:active {
+    background: #00aacc;
+    color: #fff;
+}
+
+
+/* Disabled */
+
+[role="dialog"][data-type="action"]>menu>button[disabled] {
+    background-color: rgba(87, 87, 87, 0.8);
+    color: rgba(255, 255, 255, 0.4);
+    opacity: 0.5;
+    pointer-events: none;
+}
+
+[role="dialog"][data-type="action"]>menu>button[disabled]:last-child {
+    background-color: #e7e7e7;
+    color: #a6a6a6;
+    opacity: 1;
+}
+
+
+/*
+	Drawer
+*/
+
+section[role="region"] [role="drawer"] {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    color: #5F5F5F;
+    background-color: #F4F4F4;
+    transform: translateY(-100%);
+    transition: transform 300ms ease, visibility 300ms;
+    z-index: 7;
+    /* Justo por debajo de header */
+}
+
+section[role="region"].draweropen [role="drawer"] {
+    transform: translateY(4.5rem);
+    visibility: visible;
+}
+
+
+/*
+		Footer de drawer
+	*/
+
+[role="drawer"] [role="toolbar"] {
+    position: absolute;
+    bottom: 0px;
+    display: flex;
+    box-sizing: border-box;
+    height: 45px;
+    width: 100%;
+    background: #fff;
+    border-top: 1px solid #eee;
+}
+
+[role="drawer"] [role="toolbar"] button,
+[role="drawer"] [role="toolbar"] a {
+    position: relative;
+    flex: 1;
+    border: none;
+    background-color: #fff;
+    background-image: unset;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color: #919191;
+    border-radius: 0;
+    height: 100%;
+}
+
+[role="drawer"] [role="toolbar"] button:active,
+[role="drawer"] [role="toolbar"] a:active {
+    color: #fff;
+    background-color: #b2f2ff;
+}
+
+[role="drawer"] [role="toolbar"] button span.fa,
+[role="drawer"] [role="toolbar"] a span.fa {
+    vertical-align: -10%;
+}
+
+[role="drawer"] [role="toolbar"] button span.description,
+[role="drawer"] [role="toolbar"] a span.description {
+    margin-left: 1rem;
+    font-size: 1.5rem;
+}
+
+
+/*
+		Bloqueo de contenido en apertura de drawer
+	*/
+
+section[role="region"] #drawer-lock {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    transition: opacity .5s ease, background-color .5s ease;
+    pointer-events: none;
+}
+
+section[role="region"].draweropen #drawer-lock {
+    opacity: 1;
+    background-color: rgba(0, 0, 0, 0.3);
+    z-index: 6;
+    /* Justo por debajo de drawer */
+    pointer-events: all;
+}
+
+
+/* Fuentes utilizadas en gaia */
+
+@font-face {
+    font-family: "Fira Sans";
+    src: local("Fira Sans"), url("fonts/FiraSans-Regular.ttf") format("truetype");
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Fira Sans";
+    src: local("Fira Sans Italic"), url("fonts/FiraSans-Italic.ttf") format("truetype");
+    font-weight: 400;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Fira Sans";
+    src: local("Fira Sans Light"), url("fonts/FiraSans-Light.ttf") format("truetype");
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Fira Sans";
+    src: local("Fira Sans Light Italic"), url("fonts/FiraSans-LightItalic.ttf") format("truetype");
+    font-weight: 300;
+    font-style: italic;
+}
+
+body {
+    font-family: Fira Sans;
+}
+
+
+/* -------------------------------------------------------------------
+  HEADERS: layout
+  Form factor or Skin dependent styles should NOT be defined here.
+------------------------------------------------------------------- */
+
+section[role="region"]>header:first-child {
+    position: relative;
+    display: block;
+    box-shadow: 0px 1px 7px rgba(0, 0, 0, 0.3);
+    height: 4.5rem;
+    border: none;
+    z-index: 8;
+}
+
+section[role="region"]>header:first-child h1 {
+    position: relative;
+    display: inline-block;
+    font-size: 1.8rem;
+    font-style: normal;
+    text-align: justify;
+    font-weight: 300;
+    line-height: 5rem;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    margin: 0;
+    padding: 0 1rem;
+    height: 100%;
+    z-index: -1;
+}
+
+section[role="region"]>header:first-child menu {
+    height: 100%;
+    float: right;
+    padding: 0;
+    margin: 0;
+}
+
+section[role="region"]>header:first-child menu button {
+    padding: 5px;
+    transition: background 250ms ease;
+}
+
+section[role="region"]>header:first-child span {
+    color: #fff;
+    line-height: 4.5rem;
+    vertical-align: 0;
+}
+
+
+/* ----------------------------------
+  Buttons
+---------------------------------- */
+
+section[role="region"]>header:first-child a,
+section[role="region"]>header:first-child button {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    overflow: hidden;
+    float: left;
+    width: 4.5rem;
+    height: 100%;
+    border: none;
+    background: none;
+    padding: 0 1rem;
+    margin: 0;
+    font-weight: 400;
+    font-size: 1.5rem;
+    line-height: 4.5rem;
+    border-radius: 0;
+    text-decoration: none;
+    text-align: center;
+    text-shadow: none;
+    font-style: italic;
+}
+
+
+/* Pressed state */
+
+section[role="region"]>header:first-child a:focus {
+    outline: none;
+}
+
+
+/* Disabled state */
+
+section[role="region"]>header:first-child button[disabled] {
+    opacity: 0.3;
+    pointer-events: none;
+}
+
+
+/* ----------------------------------
+  Subheader
+---------------------------------- */
+
+section[role="region"]>header {
+    z-index: 0;
+    height: auto;
+}
+
+section[role="region"] header h2 {
+    margin: 0;
+    padding: 0.8rem 3rem;
+    font-weight: 400;
+    font-size: 1.5rem;
+    line-height: 1.8rem;
+}
+
+
+/* -----------------------------------------------------------------
+  HEADER SKIN: default
+  Default values in case we are not overriding them using
+  class="skin-*"
+----------------------------------------------------------------- */
+
+section[role="region"]>header:first-child {
+    color: #fff;
+    background-color: #F7931E;
+}
+
+section[role="region"]>header:first-child h1 {
+    color: #fff;
+}
+
+section[role="region"]>header:first-child a,
+section[role="region"]>header:first-child button {
+    color: rgba(0, 0, 0, 0.6);
+}
+
+section[role="region"]>header:first-child a:active,
+section[role="region"]>header:first-child button:active,
+section[role="region"]>header:first-child a:hover,
+section[role="region"]>header:first-child button:hover {
+    background-color: rgba(0, 0, 0, 0.07);
+}
+
+section[role="region"]>header:first-child a:focus,
+section[role="region"]>header:first-child button:focus {
+    background-color: transparent;
+}
+
+
+/* -----------------------------------------------------------------
+  HEADER SKIN: organic
+  .skin-organic will override default values
+----------------------------------------------------------------- */
+
+section[role="region"].skin-organic>header:first-child,
+.skin-organic section[role="region"]>header:first-child {
+    color: #868692;
+    background-color: #f4f4f4;
+}
+
+section[role="region"].skin-organic>header:first-child h1,
+.skin-organic section[role="region"]>header:first-child h1 {
+    color: #868692;
+}
+
+section[role="region"].skin-organic>header:first-child span:before {
+    color: #00aac5 !important;
+}
+
+section[role="region"].skin-organic header h2 {
+    background-color: #e7e7e7;
+    color: #4d4d4d;
+    border: none;
+}
+
+
+/* ----------------------------------
+* Input areas
+* ---------------------------------- */
+
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="tel"],
+input[type="search"],
+input[type="url"],
+input[type="number"],
+textarea {
+    font-family: sans-serif;
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    height: 4rem;
+    line-height: 4rem;
+    resize: none;
+    padding: 0 1.5rem;
+    font-size: 1.6rem;
+    border: 0.1rem solid #c7c7c7;
+    border-radius: 0;
+    box-shadow: none;
+    /* override the box-shadow from the system (performance issue) */
+    color: #333;
+    background: #fff;
+    margin: 0 0 1rem 0;
+}
+
+label:active {
+    background-color: transparent;
+}
+
+input::-moz-placeholder,
+textarea::-moz-placeholder {
+    color: #a9a9a9;
+    opacity: 1;
+    font-style: italic;
+    font-weight: 400;
+}
+
+input[disabled] {
+    opacity: 0.5;
+}
+
+.skin-dark input[type="text"],
+.skin-dark input[type="password"],
+.skin-dark input[type="email"],
+.skin-dark input[type="tel"],
+.skin-dark input[type="search"],
+.skin-dark input[type="url"],
+.skin-dark input[type="number"],
+.skin-dark textarea {
+    color: #fff;
+    background-color: transparent;
+    border-color: #454545;
+}
+
+form p {
+    position: relative;
+    margin: 0;
+}
+
+form p input+button[type="reset"],
+form p textarea+button[type="reset"] {
+    position: absolute;
+    top: 0;
+    right: -0.3rem;
+    width: 4rem;
+    height: 4rem;
+    padding: 0;
+    border: none;
+    font-size: 0;
+    opacity: 0;
+    pointer-events: none;
+    background: url(input_areas/images/clear.svg) no-repeat center / 3rem;
+}
+
+.skin-dark p input+button[type="reset"],
+.skin-dark p textarea+button[type="reset"] {
+    background-image: url(input_areas/images/clear_dark.svg);
+}
+
+
+/* To avoid colission with BB butons */
+
+li input+button[type="reset"]:after,
+li textarea+button[type="reset"]:after {
+    background: none;
+}
+
+textarea {
+    padding: 1.2rem;
+}
+
+form p input:focus {
+    padding-right: 3rem;
+}
+
+form p input:focus+button[type="reset"],
+form p textarea:focus+button[type="reset"] {
+    opacity: 1;
+    pointer-events: all;
+}
+
+
+/* Fieldset */
+
+fieldset {
+    position: relative;
+    overflow: hidden;
+    margin: 1.5rem 0 0 0 !important;
+    padding: 0 !important;
+    font-size: 2rem;
+    line-height: 1em;
+    background: none;
+    border: 0 !important;
+}
+
+fieldset legend,
+input[type="date"],
+input[type="time"],
+input[type="datetime"],
+input[type="datetime-local"] {
+    border: 0.1rem solid #c7c7c7;
+    width: 100%;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    font-style: italic;
+    font-size: 1.6rem;
+    margin: 0 0 1.5rem;
+    padding: 0 1.5rem;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    height: 4rem;
+    color: #333;
+    border-radius: 0;
+    background: #fff url(input_areas/images/dialog.svg) no-repeat calc(100% - 1rem) calc(100% - 1rem);
+}
+
+fieldset legend {
+    margin: 0 0 1rem;
+    padding: 1rem 1.5rem 0;
+    background-color: rgba(0, 0, 0, 0.05);
+}
+
+fieldset[disabled] {
+    opacity: 0.5;
+    pointer-events: none;
+}
+
+.skin-dark fieldset legend,
+.skin-dark input[type="date"],
+.skin-dark input[type="time"],
+.skin-dark input[type="datetime"],
+.skin-dark input[type="datetime-local"] {
+    color: #fff;
+    background-color: transparent;
+    border-color: #454545;
+}
+
+fieldset[disabled] legend,
+input[type="date"][disabled],
+input[type="time"][disabled],
+input[type="datetime"][disabled],
+input[type="datetime-local"][disabled] {
+    background-image: url(input_areas/images/dialog_disabled.svg);
+    background-color: transparent
+}
+
+input[type="date"]:focus,
+input[type="time"]:focus,
+input[type="datetime"]:focus,
+input[type="datetime-local"]:focus {
+    box-shadow: none;
+    border-bottom-color: #c7c7c7;
+}
+
+.skin-dark input[type="date"]:focus,
+.skin-dark input[type="time"]:focus,
+.skin-dark input[type="datetime"]:focus,
+.skin-dark input[type="datetime-local"]:focus {
+    box-shadow: none;
+    border-bottom-color: #454545;
+}
+
+input[type="date"]:active,
+input[type="time"]:active,
+input[type="datetime"]:active,
+input[type="datetime-local"]:active {
+    background-color: #b2f2ff;
+    color: #fff;
+}
+
+.skin-dark input[type="date"]:active,
+.skin-dark input[type="time"]:active,
+.skin-dark input[type="datetime"]:active,
+.skin-dark input[type="datetime-local"]:active {
+    background-color: #00aacc;
+    background-image: url(input_areas/images/dialog_active.svg);
+}
+
+
+/* fix for required inputs with wrong or empty value e.g. [type=email] */
+
+input:invalid,
+textarea:invalid,
+.skin-dark input:invalid,
+.skin-dark textarea:invalid {
+    color: #b90000;
+}
+
+input:focus,
+textarea:focus,
+.skin-dark input:focus,
+.skin-dark textarea:focus {
+    box-shadow: inset 0 -0.1rem 0 #00caf2;
+    border-bottom-color: #00caf2;
+}
+
+input:invalid:focus,
+textarea:invalid:focus,
+.skin-dark input:invalid:focus,
+.skin-dark textarea:invalid:focus {
+    box-shadow: inset 0 -0.1rem 0 #820000;
+    border-bottom-color: #820000;
+}
+
+
+/* Tidy (search/submit) */
+
+form[role="search"] {
+    position: relative;
+    height: 3.7rem;
+    background: #f4f4f4;
+}
+
+form[role="search"].skin-dark {
+    background: #202020;
+}
+
+form[role="search"] p {
+    padding: 0 1.5rem 0 3rem;
+    overflow: hidden;
+    position: relative;
+}
+
+form[role="search"] p input,
+form[role="search"] p textarea {
+    height: 3.7rem;
+    border: none;
+    background: none;
+    padding: 0;
+    margin: 0;
+    box-shadow: none;
+}
+
+form[role="search"] p textarea {
+    padding: 1rem 0 0 0;
+}
+
+form[role="search"] p input::-moz-placeholder {
+    background: url(input_areas/images/search.svg) right -0.5rem center no-repeat;
+    background-size: 3rem;
+}
+
+form[role="search"].skin-dark p input::-moz-placeholder {
+    background-image: url(input_areas/images/search_dark.svg);
+}
+
+form[role="search"] p input:focus::-moz-placeholder {
+    background: none;
+}
+
+form[role="search"] p input:invalid,
+form[role="search"] p textarea:invalid,
+form[role="search"] p input:focus,
+form[role="search"] p textarea:focus {
+    border: none;
+    box-shadow: none;
+}
+
+form[role="search"].skin-dark p input,
+form[role="search"].skin-dark p textarea {
+    color: #fff;
+    background: none;
+    box-shadow: none;
+}
+
+form[role="search"] button[type="submit"] {
+    float: right;
+    min-width: 6rem;
+    height: 3.7rem;
+    padding: 0 1.5rem;
+    border: none;
+    color: #00aac5;
+    font-weight: normal;
+    font-size: 1.6rem;
+    line-height: 3.7rem;
+    width: auto;
+    border-radius: 0;
+    margin: 0;
+    position: relative;
+    background-color: unset;
+    font-style: italic;
+    overflow: visible;
+}
+
+form[role="search"] button[type="submit"]:after {
+    content: "";
+    position: absolute;
+    left: -0.1rem;
+    top: 0.7rem;
+    bottom: 0.7rem;
+    width: 0.1rem;
+    background: #c7c7c7;
+}
+
+form[role="search"] button[type="submit"].icon {
+    font-size: 0;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 3rem;
+}
+
+form[role="search"] p input+button[type="reset"] {
+    height: 3.7rem;
+    right: 0.5rem;
+}
+
+form[role="search"].skin-dark button[type="submit"]:after {
+    background-color: #575757;
+}
+
+form[role="search"] button[type="submit"]+p>textarea {
+    height: 3.7rem;
+    line-height: 2rem;
+}
+
+form[role="search"] button[type="submit"]+p button {
+    height: 3.7rem;
+}
+
+form[role="search"].full button[type="submit"] {
+    display: none;
+}
+
+form[role="search"] button.icon:active,
+form[role="search"] button[type="submit"]:active {
+    background-color: #b2f2ff;
+    color: #fff;
+}
+
+form[role="search"].skin-dark button.icon:active,
+form[role="search"].skin-dark button[type="submit"]:active {
+    background: #00aacc;
+}
+
+form[role="search"] button[type="submit"][disabled] {
+    color: #adadad;
+    pointer-events: none;
+}
+
+form button::-moz-focus-inner {
+    border: none;
+    outline: none;
+}
+
+
+/* .bb-editable - e.g email & SMS recipients */
+
+.bb-editable [contenteditable] {
+    display: inline-block;
+    box-sizing: border-box;
+    position: relative;
+    max-width: calc(100% - 1.4rem);
+    overflow: hidden;
+    padding: 0 1.5rem;
+    margin: 0 0 0.6rem 0;
+    line-height: 2.8rem;
+    border-radius: 1.4rem;
+    text-overflow: ellipsis;
+    font-size: 1.6rem;
+    font-style: italic;
+    white-space: nowrap;
+    color: #333;
+    background: #fff;
+}
+
+.bb-editable [contenteditable].icon {
+    padding-right: 3.7rem;
+}
+
+.bb-editable [contenteditable="false"].invalid {
+    background-color: #fedcdc;
+    padding-left: 3.3rem;
+}
+
+.bb-editable [contenteditable="false"].invalid:before {
+    content: "!";
+    position: absolute;
+    top: 0.6rem;
+    left: 0.8rem;
+    display: block;
+    width: 1.7rem;
+    height: 1.6rem;
+    padding: 0;
+    border-radius: 50%;
+    line-height: 1.6rem;
+    font-size: 1.2rem;
+    text-align: center;
+    text-indent: -0.1rem;
+    font-style: normal;
+    font-weight: 600;
+    color: #fff;
+    background-color: #b80404;
+}
+
+.bb-editable [contenteditable="false"].invalid:hover:before,
+.bb-editable [contenteditable="false"].invalid:active:before {
+    color: #b2f2ff;
+    background-color: #fff;
+}
+
+.bb-editable [contenteditable]:hover,
+.bb-editable [contenteditable]:active,
+.bb-editable [contenteditable].invalid:hover,
+.bb-editable [contenteditable].invalid:active {
+    color: #fff;
+    background-color: #b2f2ff;
+}
+
+.bb-editable [contenteditable].icon:after {
+    content: "";
+    position: absolute;
+    top: 0.7rem;
+    right: 0;
+    width: 3rem;
+    height: 3rem;
+    background-position: -0.7rem -3.8rem;
+    background-repeat: no-repeat;
+    background-size: 3rem;
+}
+
+.bb-editable [contenteditable].icon:hover:after,
+.bb-editable [contenteditable].icon:active:after {
+    background-position: -0.7rem -0.8rem;
+}
+
+.bb-editable [contenteditable].invalid.icon:after {
+    background-position: -0.7rem -6.8rem;
+}
+
+.bb-editable [contenteditable].invalid.icon:hover:after,
+.bb-editable [contenteditable].invalid.icon:active:after {
+    background-position: -0.7rem -0.8rem;
+}
+
+.bb-editable [contenteditable="true"],
+.bb-editable [contenteditable="true"]:hover,
+.skin-comms .bb-editable [contenteditable="true"]:hover {
+    padding: 0 0.2rem;
+    white-space: normal;
+    font-size: 1.8rem;
+    font-style: normal;
+    color: #000;
+    background: none repeat scroll 0 0 transparent;
+}
+
+
+/* ----------------------------------
+ * Lists
+ * ---------------------------------- */
+
+[data-type="list"] {
+    font-weight: 400;
+    padding: 0 1.5rem;
+}
+
+[data-type="list"] ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+[data-type="list"] strong {
+    font-weight: 500;
+}
+
+
+/* Title divisors */
+
+[data-type="list"] header {
+    padding: 0 1.5rem;
+    margin: 0;
+    font-size: 1.6rem;
+    height: 3rem;
+    line-height: 4rem;
+    font-weight: normal;
+    color: #ff4e00;
+    text-transform: uppercase;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+
+/* List items */
+
+[data-type="list"] li {
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+    border-bottom: solid 0.1rem #e7e7e7;
+    color: #333;
+    margin: 0;
+    display: block;
+    position: relative;
+}
+
+[data-type="list"] li:last-child {
+    border: none;
+}
+
+
+/* Pressed State */
+
+li a:active {
+    background-color: transparent;
+    /* remove default color for active state */
+}
+
+[data-type="list"] li>a {
+    text-decoration: none;
+    color: #333;
+    display: block;
+    position: relative;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+[data-type="list"].active li:after,
+[data-type="list"] li>a:after {
+    content: "";
+    pointer-events: none;
+    position: absolute;
+    left: -1.5rem;
+    top: 0;
+    right: -1.5rem;
+    bottom: 0;
+}
+
+[data-type="list"].active li:active:after,
+[data-type="list"] li>a:active:after {
+    background-color: rgba(0, 213, 255, 0.3);
+}
+
+
+/* Disabled */
+
+[data-type="list"] li[aria-disabled="true"] {
+    pointer-events: none;
+    opacity: 0.2;
+    border-color: #888;
+}
+
+
+/* Graphic content */
+
+[data-type="list"] aside {
+    float: left;
+    margin: 0 0.5rem 0 0;
+    height: 100%;
+    position: relative;
+}
+
+[data-type="list"] li>a aside,
+[data-type="list"] li>a aside.icon {
+    background-color: transparent;
+}
+
+[data-type="list"] aside.pack-end {
+    float: right;
+    margin: 0 0 0 0.5rem;
+    text-align: right;
+}
+
+[data-type="list"] aside.icon {
+    width: 3rem;
+    height: 6rem;
+    background: #fff no-repeat left center / 100% auto;
+    font-size: 0;
+    display: block;
+    overflow: hidden;
+}
+
+[data-type="list"] aside span[data-type=img],
+[data-type="list"] aside img {
+    display: block;
+    overflow: hidden;
+    width: 5rem;
+    height: 5rem;
+    border-radius: 2.5rem;
+    margin-top: 0.5rem;
+    box-sizing: border-box;
+    box-shadow: 0 0 0 0.1rem #dedede;
+    background: transparent center center / cover;
+    position: relative;
+    /* Favor performance over quality */
+    image-rendering: -moz-crisp-edges;
+}
+
+
+/* Text content */
+
+[data-type="list"] li p {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    border: none;
+    display: block;
+    margin: 0;
+    color: #858585;
+    font-size: 1.6rem;
+    line-height: 2rem;
+}
+
+[data-type="list"] li p:first-of-type {
+    line-height: 2.2rem;
+    color: #333;
+}
+
+[data-type="list"] li p:first-of-type:last-of-type {
+    line-height: 6rem;
+}
+
+[data-type="list"] li p em {
+    font-size: 1.5rem;
+    font-style: normal;
+}
+
+[data-type="list"] li p time {
+    margin-right: 0.3rem;
+    text-transform: uppercase;
+}
+
+
+/* Checkable content */
+
+[data-type="list"] li>.pack-checkbox,
+[data-type="list"] li>.pack-radio,
+[data-type="list"] li>.pack-switch {
+    pointer-events: none;
+    position: absolute;
+    top: -0.1rem;
+    bottom: 0;
+    right: 0;
+    left: -4rem;
+    width: auto;
+    height: auto;
+}
+
+[data-type="list"] li>.pack-checkbox input~span:after,
+[data-type="list"] li>.pack-radio input~span:after,
+[data-type="list"] li>.pack-switch input~span:after {
+    left: 0;
+    margin-left: 0;
+}
+
+
+/* Edit mode */
+
+[data-type="list"] [data-type="edit"] li {
+    padding-left: 4rem;
+}
+
+[data-type="list"] [data-type="edit"] li>.pack-checkbox,
+[data-type="list"] [data-type="edit"] li>.pack-radio,
+[data-type="list"] [data-type="edit"] li>.pack-switch {
+    pointer-events: auto;
+    left: 0;
+}
+
+[data-type="list"] [data-type="edit"] li>a {
+    pointer-events: none;
+}
+
+[data-type="list"] [data-type="edit"] li>a:active:after,
+[data-type="list"] [data-type="edit"] li>a:hover:after {
+    display: none;
+}
+
+[data-type="list"] [data-type="edit"] aside.pack-end {
+    display: none;
+}
+
+
+/* ----------------------------------
+* Seekbars
+* ---------------------------------- */
+
+[role="slider"],
+input[type="range"] {
+    position: relative;
+    height: 3.5rem;
+}
+
+input[type="range"] {
+    width: 100%;
+    margin: 0;
+    border: none;
+}
+
+[role="slider"]>div {
+    display: block;
+    overflow: hidden;
+    padding: 0;
+    position: relative;
+    height: 100%;
+}
+
+[role="slider"]>label {
+    font-size: 1.5rem;
+    line-height: 3.8rem;
+    font-family: sans-serif;
+    color: #00aacb;
+    float: right;
+    padding: 0 0 0 1rem;
+    height: 3.5rem;
+    width: auto;
+}
+
+[role="slider"] label:first-of-type {
+    float: left;
+    padding: 0 1rem 0 0;
+}
+
+[role="slider"]>label.icon {
+    width: 3rem;
+    height: 3rem;
+    margin-top: 0.5rem;
+    font-size: 0;
+    background: no-repeat right top / 3rem auto;
+}
+
+[role="slider"]>label.icon:first-of-type {
+    background-position: top left;
+}
+
+
+/*
+  Clean Step
+*/
+
+input[type="range"] {
+    -webkit-appearance: none;
+    /* Hides the slider so that custom slider can be made */
+    width: 100%;
+    /* Specific width is required for Firefox. */
+    background: transparent;
+    /* Otherwise white in Chrome */
+}
+
+input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+}
+
+input[type="range"]:focus {
+    outline: none;
+    /* Removes the blue border. You should probably do some kind of focus styling for accessibility reasons though. */
+}
+
+input[type="range"]::-ms-track {
+    width: 100%;
+    cursor: pointer;
+    /* Hides the slider so custom styles can be added */
+    background: transparent;
+    border-color: transparent;
+    color: transparent;
+}
+
+
+/*
+  Thumb Step
+*/
+
+input[type="range"]::-webkit-slider-thumb {
+    width: 2.2rem;
+    height: 2.2rem;
+    background: url(seekbars/images/ui/handler.png) no-repeat center center / 2.8rem auto;
+    border-radius: 3.2rem;
+    border: solid 0.1rem transparent;
+    transition: border 0.15s ease;
+    margin-top: -1rem;
+}
+
+input[type="range"]:active::-webkit-slider-thumb {
+    border: solid 0.5rem #01c5ed;
+}
+
+
+/* All the same stuff for Firefox */
+
+input[type="range"]::-moz-range-thumb {
+    width: 2.2rem;
+    height: 2.2rem;
+    background: url(seekbars/images/ui/handler.png) no-repeat center center / 2.8rem auto;
+    border-radius: 3.2rem;
+    border: solid 0.1rem transparent;
+    transition: border 0.15s ease;
+}
+
+input[type="range"]:active::-moz-range-thumb {
+    border: solid 0.5rem #01c5ed;
+}
+
+
+/* All the same stuff for IE */
+
+input[type="range"]::-ms-thumb {
+    width: 2.2rem;
+    height: 2.2rem;
+    background: url(seekbars/images/ui/handler.png) no-repeat center center / 2.8rem auto;
+    border-radius: 3.2rem;
+    border: solid 0.1rem transparent;
+    transition: border 0.15s ease;
+}
+
+input[type="range"]:active::-ms-thumb {
+    border: solid 0.5rem #01c5ed;
+}
+
+
+/*
+  Track Step
+*/
+
+input[type="range"]::-webkit-slider-runnable-track {
+    width: 100%;
+    background: #000;
+    border: none;
+    height: 0.1rem;
+}
+
+input[type="range"]::-moz-range-track {
+    width: 100%;
+    background: #000;
+    border: none;
+    height: 0.1rem;
+}
+
+input[type="range"]::-ms-track {
+    width: 100%;
+    background: #000;
+    border: none;
+    height: 0.1rem;
+}
+
+
+/*
+  Progress Step
+*/
+
+input[type="range"]::-ms-fill-lower {
+    background: #01c5ed;
+    height: 0.6rem;
+}
+
+input[type="range"]::-moz-range-progress {
+    background: #01c5ed;
+    height: 0.6rem;
+}
+
+input[type="range"]::-webkit-progress-value {
+    background: #01c5ed;
+    height: 0.6rem;
+}
+
+
+/*-------------------------
+ 	Estilos de Gaia
+-------------------------*/
+
+@import url('action_menu.css');
+@import url('drawer.css');
+@import url('fonts.css');
+@import url('headers.css');
+@import url('input_areas.css');
+@import url('lists.css');
+@import url('seekbars.css');
+@import url('switches.css');
+@import url('util.css');
+
+/* ----------------------------------
+ * CHECKBOXES / RADIOS
+ * ---------------------------------- */
+
+label.pack-checkbox,
+label.pack-radio,
+label.pack-switch {
+    display: inline-block;
+    vertical-align: middle;
+    width: 6rem;
+    height: 6rem;
+    position: relative;
+    background: none;
+}
+
+label.pack-checkbox input,
+label.pack-radio input,
+label.pack-switch input {
+    margin: 0;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+label.pack-checkbox input~span:after,
+label.pack-radio input~span:after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin: -1.1rem 0 0 -1.1rem;
+    width: 2.2rem;
+    height: 2.2rem;
+    pointer-events: none;
+}
+
+label.pack-checkbox input~span:after {
+    background: url(switches/images/check/default.png) no-repeat center top / 2.2rem auto;
+}
+
+label.pack-radio input~span:after {
+    background: url(switches/images/radio/default.png) no-repeat center top / 2.2rem auto;
+}
+
+label.pack-checkbox input:checked~span:after,
+label.pack-radio input:checked~span:after,
+label.pack-switch input:checked~span:after {
+    background-position: center bottom;
+}
+
+
+/* 'Dangerous' switches */
+
+label.pack-checkbox.danger input~span:after {
+    background-image: url(switches/images/check/danger.png);
+}
+
+label.pack-radio.danger input~span:after {
+    background-image: url(switches/images/radio/danger.png);
+}
+
+
+/* ----------------------------------
+ * ON/OFF SWITCHES
+ * ---------------------------------- */
+
+label.pack-switch input~span:after {
+    content: '';
+    position: absolute;
+    right: 0;
+    top: 50%;
+    width: 6rem;
+    margin: -1.4rem 0 0;
+    height: 2.7rem;
+    pointer-events: none;
+    border-radius: 1.35rem;
+    overflow: hidden;
+    background: #e6e6e6 url(switches/images/switch/background_off.png) no-repeat -3.2rem 0 / 9.2rem 2.7rem;
+    transition: background 0.2s ease;
+}
+
+
+/* switch: 'ON' state */
+
+label.pack-switch input:checked~span:after {
+    background: #e6e6e6 url(switches/images/switch/background.png) no-repeat 0 0 / 9.2rem 2.7rem;
+}
+
+
+/* switch: disabled state */
+
+label.pack-switch input:disabled~span:after {
+    opacity: 0.4;
+}
+
+label.pack-switch input.uninit~span:after {
+    transition: none;
+}
+
+
+/******************************************************************************
+ * Right-To-Left tweaks
+ */
+
+html[dir="rtl"] label.pack-checkbox input,
+html[dir="rtl"] label.pack-radio input,
+html[dir="rtl"] label.pack-switch input {
+    left: auto;
+    right: 0;
+}
+
+html[dir="rtl"] label.pack-checkbox input~span:after,
+html[dir="rtl"] label.pack-radio input~span:after {
+    left: auto;
+    right: 50%;
+    margin-left: auto;
+    margin-right: -1.1rem;
+}
+
+html[dir="rtl"] label.pack-switch input~span:after {
+    left: 0;
+    right: auto;
+}
+
+html[dir="rtl"] label.pack-switch input~span:after {
+    background-position: 0;
+}
+
+
+/* switch: 'ON' state */
+
+html[dir="rtl"] label.pack-switch input:checked~span:after {
+    background-image: url(switches/images/switch/background_rtl.png);
+    background-position: -3.2rem 0;
+}
+
+
+/* Feel free to add any useful code */
+
+
+/* This will help you scroll just the content of your app. Eg:
+  <header class="fixed">
+  ...
+  <article class="scrollable header">
+*/
+
+html,
+body {
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+html {
+    font-size: 62.5%;
+    /* Setting base font to 10px and define all your units in rem. 1rem = 10px */
+}
+
+body {
+    transition: background .5s ease;
+}
+
+[role="region"] {
+    height: 100%;
+}
+
+.hidden {
+    opacity: 0 !important;
+    visibility: hidden !important;
+}
+
+.none {
+    display: none !important;
+}
+
+.scrollable {
+    overflow: scroll;
+    height: 100%;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    position: relative;
+}
+
+.scrollable.header {
+    height: calc(100% - 5rem);
+    top: 5rem;
+}
+
+.center {
+    text-align: center;
+}
+
+.absolute-center {
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    right: 0px;
+    bottom: 0px;
+}
+
+
+/* Fonts */
+
+h1,
+h2,
+p {
+    margin: 0px !important;
+}
+
+h1 {
+    /* Main header */
+    font-size: 2rem;
+    font-weight: lighter;
+}
+
+h2 {
+    /* Subheader, Dialog title */
+    font-size: 1.8rem;
+    font-weight: normal;
+}
+
+p {
+    font-size: 1.8rem;
+}
+
+p.large {
+    /* Dialog body */
+    font-size: 2.4rem;
+}
+
+p.medium {
+    /* Body medium, Buttons */
+    font-size: 1.6rem;
+}
+
+p.small {
+    /* Status bar */
+    font-size: 1.5rem;
+}
+
+p.mini {
+    /* Fine print */
+    font-size: 1.4rem;
+}
+
+p.v-mini {
+    /* Fine print */
+    font-size: 1.3rem;
+}
+
+p.micro {
+    /* Copyright */
+    font-size: 0.92rem;
+}
+
+ul,
+ol,
+li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-size: 1.9rem;
+    font-weight: normal;
+    line-height: 2rem;
+}
+/*!
+ *  Font Awesome 4.6.3 by @davegandy - http://fontawesome.io - @fontawesome
+ *  License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)
+ */
+@font-face{font-family:'FontAwesome';src:url('fonts/fontawesome-webfont.ttf?v=4.6.3') format('truetype');font-weight:normal;font-style:normal}.fa{display:inline-block;font:normal normal normal 14px/1 FontAwesome;font-size:inherit;text-rendering:auto;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}.fa-lg{font-size:1.33333333em;line-height:.75em;vertical-align:-15%}.fa-2x{font-size:2em}.fa-3x{font-size:3em}.fa-4x{font-size:4em}.fa-5x{font-size:5em}.fa-fw{width:1.28571429em;text-align:center}.fa-ul{padding-left:0;margin-left:2.14285714em;list-style-type:none}.fa-ul>li{position:relative}.fa-li{position:absolute;left:-2.14285714em;width:2.14285714em;top:.14285714em;text-align:center}.fa-li.fa-lg{left:-1.85714286em}.fa-border{padding:.2em .25em .15em;border:solid .08em #eee;border-radius:.1em}.fa-pull-left{float:left}.fa-pull-right{float:right}.fa.fa-pull-left{margin-right:.3em}.fa.fa-pull-right{margin-left:.3em}.pull-right{float:right}.pull-left{float:left}.fa.pull-left{margin-right:.3em}.fa.pull-right{margin-left:.3em}.fa-spin{-webkit-animation:fa-spin 2s infinite linear;animation:fa-spin 2s infinite linear}.fa-pulse{-webkit-animation:fa-spin 1s infinite steps(8);animation:fa-spin 1s infinite steps(8)}@-webkit-keyframes fa-spin{0%{-webkit-transform:rotate(0deg);transform:rotate(0deg)}100%{-webkit-transform:rotate(359deg);transform:rotate(359deg)}}@keyframes fa-spin{0%{-webkit-transform:rotate(0deg);transform:rotate(0deg)}100%{-webkit-transform:rotate(359deg);transform:rotate(359deg)}}.fa-rotate-90{-ms-filter:"progid:DXImageTransform.Microsoft.BasicImage(rotation=1)";-webkit-transform:rotate(90deg);-ms-transform:rotate(90deg);transform:rotate(90deg)}.fa-rotate-180{-ms-filter:"progid:DXImageTransform.Microsoft.BasicImage(rotation=2)";-webkit-transform:rotate(180deg);-ms-transform:rotate(180deg);transform:rotate(180deg)}.fa-rotate-270{-ms-filter:"progid:DXImageTransform.Microsoft.BasicImage(rotation=3)";-webkit-transform:rotate(270deg);-ms-transform:rotate(270deg);transform:rotate(270deg)}.fa-flip-horizontal{-ms-filter:"progid:DXImageTransform.Microsoft.BasicImage(rotation=0, mirror=1)";-webkit-transform:scale(-1, 1);-ms-transform:scale(-1, 1);transform:scale(-1, 1)}.fa-flip-vertical{-ms-filter:"progid:DXImageTransform.Microsoft.BasicImage(rotation=2, mirror=1)";-webkit-transform:scale(1, -1);-ms-transform:scale(1, -1);transform:scale(1, -1)}:root .fa-rotate-90,:root .fa-rotate-180,:root .fa-rotate-270,:root .fa-flip-horizontal,:root .fa-flip-vertical{filter:none}.fa-stack{position:relative;display:inline-block;width:2em;height:2em;line-height:2em;vertical-align:middle}.fa-stack-1x,.fa-stack-2x{position:absolute;left:0;width:100%;text-align:center}.fa-stack-1x{line-height:inherit}.fa-stack-2x{font-size:2em}.fa-inverse{color:#fff}.fa-glass:before{content:"\f000"}.fa-music:before{content:"\f001"}.fa-search:before{content:"\f002"}.fa-envelope-o:before{content:"\f003"}.fa-heart:before{content:"\f004"}.fa-star:before{content:"\f005"}.fa-star-o:before{content:"\f006"}.fa-user:before{content:"\f007"}.fa-film:before{content:"\f008"}.fa-th-large:before{content:"\f009"}.fa-th:before{content:"\f00a"}.fa-th-list:before{content:"\f00b"}.fa-check:before{content:"\f00c"}.fa-remove:before,.fa-close:before,.fa-times:before{content:"\f00d"}.fa-search-plus:before{content:"\f00e"}.fa-search-minus:before{content:"\f010"}.fa-power-off:before{content:"\f011"}.fa-signal:before{content:"\f012"}.fa-gear:before,.fa-cog:before{content:"\f013"}.fa-trash-o:before{content:"\f014"}.fa-home:before{content:"\f015"}.fa-file-o:before{content:"\f016"}.fa-clock-o:before{content:"\f017"}.fa-road:before{content:"\f018"}.fa-download:before{content:"\f019"}.fa-arrow-circle-o-down:before{content:"\f01a"}.fa-arrow-circle-o-up:before{content:"\f01b"}.fa-inbox:before{content:"\f01c"}.fa-play-circle-o:before{content:"\f01d"}.fa-rotate-right:before,.fa-repeat:before{content:"\f01e"}.fa-refresh:before{content:"\f021"}.fa-list-alt:before{content:"\f022"}.fa-lock:before{content:"\f023"}.fa-flag:before{content:"\f024"}.fa-headphones:before{content:"\f025"}.fa-volume-off:before{content:"\f026"}.fa-volume-down:before{content:"\f027"}.fa-volume-up:before{content:"\f028"}.fa-qrcode:before{content:"\f029"}.fa-barcode:before{content:"\f02a"}.fa-tag:before{content:"\f02b"}.fa-tags:before{content:"\f02c"}.fa-book:before{content:"\f02d"}.fa-bookmark:before{content:"\f02e"}.fa-print:before{content:"\f02f"}.fa-camera:before{content:"\f030"}.fa-font:before{content:"\f031"}.fa-bold:before{content:"\f032"}.fa-italic:before{content:"\f033"}.fa-text-height:before{content:"\f034"}.fa-text-width:before{content:"\f035"}.fa-align-left:before{content:"\f036"}.fa-align-center:before{content:"\f037"}.fa-align-right:before{content:"\f038"}.fa-align-justify:before{content:"\f039"}.fa-list:before{content:"\f03a"}.fa-dedent:before,.fa-outdent:before{content:"\f03b"}.fa-indent:before{content:"\f03c"}.fa-video-camera:before{content:"\f03d"}.fa-photo:before,.fa-image:before,.fa-picture-o:before{content:"\f03e"}.fa-pencil:before{content:"\f040"}.fa-map-marker:before{content:"\f041"}.fa-adjust:before{content:"\f042"}.fa-tint:before{content:"\f043"}.fa-edit:before,.fa-pencil-square-o:before{content:"\f044"}.fa-share-square-o:before{content:"\f045"}.fa-check-square-o:before{content:"\f046"}.fa-arrows:before{content:"\f047"}.fa-step-backward:before{content:"\f048"}.fa-fast-backward:before{content:"\f049"}.fa-backward:before{content:"\f04a"}.fa-play:before{content:"\f04b"}.fa-pause:before{content:"\f04c"}.fa-stop:before{content:"\f04d"}.fa-forward:before{content:"\f04e"}.fa-fast-forward:before{content:"\f050"}.fa-step-forward:before{content:"\f051"}.fa-eject:before{content:"\f052"}.fa-chevron-left:before{content:"\f053"}.fa-chevron-right:before{content:"\f054"}.fa-plus-circle:before{content:"\f055"}.fa-minus-circle:before{content:"\f056"}.fa-times-circle:before{content:"\f057"}.fa-check-circle:before{content:"\f058"}.fa-question-circle:before{content:"\f059"}.fa-info-circle:before{content:"\f05a"}.fa-crosshairs:before{content:"\f05b"}.fa-times-circle-o:before{content:"\f05c"}.fa-check-circle-o:before{content:"\f05d"}.fa-ban:before{content:"\f05e"}.fa-arrow-left:before{content:"\f060"}.fa-arrow-right:before{content:"\f061"}.fa-arrow-up:before{content:"\f062"}.fa-arrow-down:before{content:"\f063"}.fa-mail-forward:before,.fa-share:before{content:"\f064"}.fa-expand:before{content:"\f065"}.fa-compress:before{content:"\f066"}.fa-plus:before{content:"\f067"}.fa-minus:before{content:"\f068"}.fa-asterisk:before{content:"\f069"}.fa-exclamation-circle:before{content:"\f06a"}.fa-gift:before{content:"\f06b"}.fa-leaf:before{content:"\f06c"}.fa-fire:before{content:"\f06d"}.fa-eye:before{content:"\f06e"}.fa-eye-slash:before{content:"\f070"}.fa-warning:before,.fa-exclamation-triangle:before{content:"\f071"}.fa-plane:before{content:"\f072"}.fa-calendar:before{content:"\f073"}.fa-random:before{content:"\f074"}.fa-comment:before{content:"\f075"}.fa-magnet:before{content:"\f076"}.fa-chevron-up:before{content:"\f077"}.fa-chevron-down:before{content:"\f078"}.fa-retweet:before{content:"\f079"}.fa-shopping-cart:before{content:"\f07a"}.fa-folder:before{content:"\f07b"}.fa-folder-open:before{content:"\f07c"}.fa-arrows-v:before{content:"\f07d"}.fa-arrows-h:before{content:"\f07e"}.fa-bar-chart-o:before,.fa-bar-chart:before{content:"\f080"}.fa-twitter-square:before{content:"\f081"}.fa-facebook-square:before{content:"\f082"}.fa-camera-retro:before{content:"\f083"}.fa-key:before{content:"\f084"}.fa-gears:before,.fa-cogs:before{content:"\f085"}.fa-comments:before{content:"\f086"}.fa-thumbs-o-up:before{content:"\f087"}.fa-thumbs-o-down:before{content:"\f088"}.fa-star-half:before{content:"\f089"}.fa-heart-o:before{content:"\f08a"}.fa-sign-out:before{content:"\f08b"}.fa-linkedin-square:before{content:"\f08c"}.fa-thumb-tack:before{content:"\f08d"}.fa-external-link:before{content:"\f08e"}.fa-sign-in:before{content:"\f090"}.fa-trophy:before{content:"\f091"}.fa-github-square:before{content:"\f092"}.fa-upload:before{content:"\f093"}.fa-lemon-o:before{content:"\f094"}.fa-phone:before{content:"\f095"}.fa-square-o:before{content:"\f096"}.fa-bookmark-o:before{content:"\f097"}.fa-phone-square:before{content:"\f098"}.fa-twitter:before{content:"\f099"}.fa-facebook-f:before,.fa-facebook:before{content:"\f09a"}.fa-github:before{content:"\f09b"}.fa-unlock:before{content:"\f09c"}.fa-credit-card:before{content:"\f09d"}.fa-feed:before,.fa-rss:before{content:"\f09e"}.fa-hdd-o:before{content:"\f0a0"}.fa-bullhorn:before{content:"\f0a1"}.fa-bell:before{content:"\f0f3"}.fa-certificate:before{content:"\f0a3"}.fa-hand-o-right:before{content:"\f0a4"}.fa-hand-o-left:before{content:"\f0a5"}.fa-hand-o-up:before{content:"\f0a6"}.fa-hand-o-down:before{content:"\f0a7"}.fa-arrow-circle-left:before{content:"\f0a8"}.fa-arrow-circle-right:before{content:"\f0a9"}.fa-arrow-circle-up:before{content:"\f0aa"}.fa-arrow-circle-down:before{content:"\f0ab"}.fa-globe:before{content:"\f0ac"}.fa-wrench:before{content:"\f0ad"}.fa-tasks:before{content:"\f0ae"}.fa-filter:before{content:"\f0b0"}.fa-briefcase:before{content:"\f0b1"}.fa-arrows-alt:before{content:"\f0b2"}.fa-group:before,.fa-users:before{content:"\f0c0"}.fa-chain:before,.fa-link:before{content:"\f0c1"}.fa-cloud:before{content:"\f0c2"}.fa-flask:before{content:"\f0c3"}.fa-cut:before,.fa-scissors:before{content:"\f0c4"}.fa-copy:before,.fa-files-o:before{content:"\f0c5"}.fa-paperclip:before{content:"\f0c6"}.fa-save:before,.fa-floppy-o:before{content:"\f0c7"}.fa-square:before{content:"\f0c8"}.fa-navicon:before,.fa-reorder:before,.fa-bars:before{content:"\f0c9"}.fa-list-ul:before{content:"\f0ca"}.fa-list-ol:before{content:"\f0cb"}.fa-strikethrough:before{content:"\f0cc"}.fa-underline:before{content:"\f0cd"}.fa-table:before{content:"\f0ce"}.fa-magic:before{content:"\f0d0"}.fa-truck:before{content:"\f0d1"}.fa-pinterest:before{content:"\f0d2"}.fa-pinterest-square:before{content:"\f0d3"}.fa-google-plus-square:before{content:"\f0d4"}.fa-google-plus:before{content:"\f0d5"}.fa-money:before{content:"\f0d6"}.fa-caret-down:before{content:"\f0d7"}.fa-caret-up:before{content:"\f0d8"}.fa-caret-left:before{content:"\f0d9"}.fa-caret-right:before{content:"\f0da"}.fa-columns:before{content:"\f0db"}.fa-unsorted:before,.fa-sort:before{content:"\f0dc"}.fa-sort-down:before,.fa-sort-desc:before{content:"\f0dd"}.fa-sort-up:before,.fa-sort-asc:before{content:"\f0de"}.fa-envelope:before{content:"\f0e0"}.fa-linkedin:before{content:"\f0e1"}.fa-rotate-left:before,.fa-undo:before{content:"\f0e2"}.fa-legal:before,.fa-gavel:before{content:"\f0e3"}.fa-dashboard:before,.fa-tachometer:before{content:"\f0e4"}.fa-comment-o:before{content:"\f0e5"}.fa-comments-o:before{content:"\f0e6"}.fa-flash:before,.fa-bolt:before{content:"\f0e7"}.fa-sitemap:before{content:"\f0e8"}.fa-umbrella:before{content:"\f0e9"}.fa-paste:before,.fa-clipboard:before{content:"\f0ea"}.fa-lightbulb-o:before{content:"\f0eb"}.fa-exchange:before{content:"\f0ec"}.fa-cloud-download:before{content:"\f0ed"}.fa-cloud-upload:before{content:"\f0ee"}.fa-user-md:before{content:"\f0f0"}.fa-stethoscope:before{content:"\f0f1"}.fa-suitcase:before{content:"\f0f2"}.fa-bell-o:before{content:"\f0a2"}.fa-coffee:before{content:"\f0f4"}.fa-cutlery:before{content:"\f0f5"}.fa-file-text-o:before{content:"\f0f6"}.fa-building-o:before{content:"\f0f7"}.fa-hospital-o:before{content:"\f0f8"}.fa-ambulance:before{content:"\f0f9"}.fa-medkit:before{content:"\f0fa"}.fa-fighter-jet:before{content:"\f0fb"}.fa-beer:before{content:"\f0fc"}.fa-h-square:before{content:"\f0fd"}.fa-plus-square:before{content:"\f0fe"}.fa-angle-double-left:before{content:"\f100"}.fa-angle-double-right:before{content:"\f101"}.fa-angle-double-up:before{content:"\f102"}.fa-angle-double-down:before{content:"\f103"}.fa-angle-left:before{content:"\f104"}.fa-angle-right:before{content:"\f105"}.fa-angle-up:before{content:"\f106"}.fa-angle-down:before{content:"\f107"}.fa-desktop:before{content:"\f108"}.fa-laptop:before{content:"\f109"}.fa-tablet:before{content:"\f10a"}.fa-mobile-phone:before,.fa-mobile:before{content:"\f10b"}.fa-circle-o:before{content:"\f10c"}.fa-quote-left:before{content:"\f10d"}.fa-quote-right:before{content:"\f10e"}.fa-spinner:before{content:"\f110"}.fa-circle:before{content:"\f111"}.fa-mail-reply:before,.fa-reply:before{content:"\f112"}.fa-github-alt:before{content:"\f113"}.fa-folder-o:before{content:"\f114"}.fa-folder-open-o:before{content:"\f115"}.fa-smile-o:before{content:"\f118"}.fa-frown-o:before{content:"\f119"}.fa-meh-o:before{content:"\f11a"}.fa-gamepad:before{content:"\f11b"}.fa-keyboard-o:before{content:"\f11c"}.fa-flag-o:before{content:"\f11d"}.fa-flag-checkered:before{content:"\f11e"}.fa-terminal:before{content:"\f120"}.fa-code:before{content:"\f121"}.fa-mail-reply-all:before,.fa-reply-all:before{content:"\f122"}.fa-star-half-empty:before,.fa-star-half-full:before,.fa-star-half-o:before{content:"\f123"}.fa-location-arrow:before{content:"\f124"}.fa-crop:before{content:"\f125"}.fa-code-fork:before{content:"\f126"}.fa-unlink:before,.fa-chain-broken:before{content:"\f127"}.fa-question:before{content:"\f128"}.fa-info:before{content:"\f129"}.fa-exclamation:before{content:"\f12a"}.fa-superscript:before{content:"\f12b"}.fa-subscript:before{content:"\f12c"}.fa-eraser:before{content:"\f12d"}.fa-puzzle-piece:before{content:"\f12e"}.fa-microphone:before{content:"\f130"}.fa-microphone-slash:before{content:"\f131"}.fa-shield:before{content:"\f132"}.fa-calendar-o:before{content:"\f133"}.fa-fire-extinguisher:before{content:"\f134"}.fa-rocket:before{content:"\f135"}.fa-maxcdn:before{content:"\f136"}.fa-chevron-circle-left:before{content:"\f137"}.fa-chevron-circle-right:before{content:"\f138"}.fa-chevron-circle-up:before{content:"\f139"}.fa-chevron-circle-down:before{content:"\f13a"}.fa-html5:before{content:"\f13b"}.fa-css3:before{content:"\f13c"}.fa-anchor:before{content:"\f13d"}.fa-unlock-alt:before{content:"\f13e"}.fa-bullseye:before{content:"\f140"}.fa-ellipsis-h:before{content:"\f141"}.fa-ellipsis-v:before{content:"\f142"}.fa-rss-square:before{content:"\f143"}.fa-play-circle:before{content:"\f144"}.fa-ticket:before{content:"\f145"}.fa-minus-square:before{content:"\f146"}.fa-minus-square-o:before{content:"\f147"}.fa-level-up:before{content:"\f148"}.fa-level-down:before{content:"\f149"}.fa-check-square:before{content:"\f14a"}.fa-pencil-square:before{content:"\f14b"}.fa-external-link-square:before{content:"\f14c"}.fa-share-square:before{content:"\f14d"}.fa-compass:before{content:"\f14e"}.fa-toggle-down:before,.fa-caret-square-o-down:before{content:"\f150"}.fa-toggle-up:before,.fa-caret-square-o-up:before{content:"\f151"}.fa-toggle-right:before,.fa-caret-square-o-right:before{content:"\f152"}.fa-euro:before,.fa-eur:before{content:"\f153"}.fa-gbp:before{content:"\f154"}.fa-dollar:before,.fa-usd:before{content:"\f155"}.fa-rupee:before,.fa-inr:before{content:"\f156"}.fa-cny:before,.fa-rmb:before,.fa-yen:before,.fa-jpy:before{content:"\f157"}.fa-ruble:before,.fa-rouble:before,.fa-rub:before{content:"\f158"}.fa-won:before,.fa-krw:before{content:"\f159"}.fa-bitcoin:before,.fa-btc:before{content:"\f15a"}.fa-file:before{content:"\f15b"}.fa-file-text:before{content:"\f15c"}.fa-sort-alpha-asc:before{content:"\f15d"}.fa-sort-alpha-desc:before{content:"\f15e"}.fa-sort-amount-asc:before{content:"\f160"}.fa-sort-amount-desc:before{content:"\f161"}.fa-sort-numeric-asc:before{content:"\f162"}.fa-sort-numeric-desc:before{content:"\f163"}.fa-thumbs-up:before{content:"\f164"}.fa-thumbs-down:before{content:"\f165"}.fa-youtube-square:before{content:"\f166"}.fa-youtube:before{content:"\f167"}.fa-xing:before{content:"\f168"}.fa-xing-square:before{content:"\f169"}.fa-youtube-play:before{content:"\f16a"}.fa-dropbox:before{content:"\f16b"}.fa-stack-overflow:before{content:"\f16c"}.fa-instagram:before{content:"\f16d"}.fa-flickr:before{content:"\f16e"}.fa-adn:before{content:"\f170"}.fa-bitbucket:before{content:"\f171"}.fa-bitbucket-square:before{content:"\f172"}.fa-tumblr:before{content:"\f173"}.fa-tumblr-square:before{content:"\f174"}.fa-long-arrow-down:before{content:"\f175"}.fa-long-arrow-up:before{content:"\f176"}.fa-long-arrow-left:before{content:"\f177"}.fa-long-arrow-right:before{content:"\f178"}.fa-apple:before{content:"\f179"}.fa-windows:before{content:"\f17a"}.fa-android:before{content:"\f17b"}.fa-linux:before{content:"\f17c"}.fa-dribbble:before{content:"\f17d"}.fa-skype:before{content:"\f17e"}.fa-foursquare:before{content:"\f180"}.fa-trello:before{content:"\f181"}.fa-female:before{content:"\f182"}.fa-male:before{content:"\f183"}.fa-gittip:before,.fa-gratipay:before{content:"\f184"}.fa-sun-o:before{content:"\f185"}.fa-moon-o:before{content:"\f186"}.fa-archive:before{content:"\f187"}.fa-bug:before{content:"\f188"}.fa-vk:before{content:"\f189"}.fa-weibo:before{content:"\f18a"}.fa-renren:before{content:"\f18b"}.fa-pagelines:before{content:"\f18c"}.fa-stack-exchange:before{content:"\f18d"}.fa-arrow-circle-o-right:before{content:"\f18e"}.fa-arrow-circle-o-left:before{content:"\f190"}.fa-toggle-left:before,.fa-caret-square-o-left:before{content:"\f191"}.fa-dot-circle-o:before{content:"\f192"}.fa-wheelchair:before{content:"\f193"}.fa-vimeo-square:before{content:"\f194"}.fa-turkish-lira:before,.fa-try:before{content:"\f195"}.fa-plus-square-o:before{content:"\f196"}.fa-space-shuttle:before{content:"\f197"}.fa-slack:before{content:"\f198"}.fa-envelope-square:before{content:"\f199"}.fa-wordpress:before{content:"\f19a"}.fa-openid:before{content:"\f19b"}.fa-institution:before,.fa-bank:before,.fa-university:before{content:"\f19c"}.fa-mortar-board:before,.fa-graduation-cap:before{content:"\f19d"}.fa-yahoo:before{content:"\f19e"}.fa-google:before{content:"\f1a0"}.fa-reddit:before{content:"\f1a1"}.fa-reddit-square:before{content:"\f1a2"}.fa-stumbleupon-circle:before{content:"\f1a3"}.fa-stumbleupon:before{content:"\f1a4"}.fa-delicious:before{content:"\f1a5"}.fa-digg:before{content:"\f1a6"}.fa-pied-piper-pp:before{content:"\f1a7"}.fa-pied-piper-alt:before{content:"\f1a8"}.fa-drupal:before{content:"\f1a9"}.fa-joomla:before{content:"\f1aa"}.fa-language:before{content:"\f1ab"}.fa-fax:before{content:"\f1ac"}.fa-building:before{content:"\f1ad"}.fa-child:before{content:"\f1ae"}.fa-paw:before{content:"\f1b0"}.fa-spoon:before{content:"\f1b1"}.fa-cube:before{content:"\f1b2"}.fa-cubes:before{content:"\f1b3"}.fa-behance:before{content:"\f1b4"}.fa-behance-square:before{content:"\f1b5"}.fa-steam:before{content:"\f1b6"}.fa-steam-square:before{content:"\f1b7"}.fa-recycle:before{content:"\f1b8"}.fa-automobile:before,.fa-car:before{content:"\f1b9"}.fa-cab:before,.fa-taxi:before{content:"\f1ba"}.fa-tree:before{content:"\f1bb"}.fa-spotify:before{content:"\f1bc"}.fa-deviantart:before{content:"\f1bd"}.fa-soundcloud:before{content:"\f1be"}.fa-database:before{content:"\f1c0"}.fa-file-pdf-o:before{content:"\f1c1"}.fa-file-word-o:before{content:"\f1c2"}.fa-file-excel-o:before{content:"\f1c3"}.fa-file-powerpoint-o:before{content:"\f1c4"}.fa-file-photo-o:before,.fa-file-picture-o:before,.fa-file-image-o:before{content:"\f1c5"}.fa-file-zip-o:before,.fa-file-archive-o:before{content:"\f1c6"}.fa-file-sound-o:before,.fa-file-audio-o:before{content:"\f1c7"}.fa-file-movie-o:before,.fa-file-video-o:before{content:"\f1c8"}.fa-file-code-o:before{content:"\f1c9"}.fa-vine:before{content:"\f1ca"}.fa-codepen:before{content:"\f1cb"}.fa-jsfiddle:before{content:"\f1cc"}.fa-life-bouy:before,.fa-life-buoy:before,.fa-life-saver:before,.fa-support:before,.fa-life-ring:before{content:"\f1cd"}.fa-circle-o-notch:before{content:"\f1ce"}.fa-ra:before,.fa-resistance:before,.fa-rebel:before{content:"\f1d0"}.fa-ge:before,.fa-empire:before{content:"\f1d1"}.fa-git-square:before{content:"\f1d2"}.fa-git:before{content:"\f1d3"}.fa-y-combinator-square:before,.fa-yc-square:before,.fa-hacker-news:before{content:"\f1d4"}.fa-tencent-weibo:before{content:"\f1d5"}.fa-qq:before{content:"\f1d6"}.fa-wechat:before,.fa-weixin:before{content:"\f1d7"}.fa-send:before,.fa-paper-plane:before{content:"\f1d8"}.fa-send-o:before,.fa-paper-plane-o:before{content:"\f1d9"}.fa-history:before{content:"\f1da"}.fa-circle-thin:before{content:"\f1db"}.fa-header:before{content:"\f1dc"}.fa-paragraph:before{content:"\f1dd"}.fa-sliders:before{content:"\f1de"}.fa-share-alt:before{content:"\f1e0"}.fa-share-alt-square:before{content:"\f1e1"}.fa-bomb:before{content:"\f1e2"}.fa-soccer-ball-o:before,.fa-futbol-o:before{content:"\f1e3"}.fa-tty:before{content:"\f1e4"}.fa-binoculars:before{content:"\f1e5"}.fa-plug:before{content:"\f1e6"}.fa-slideshare:before{content:"\f1e7"}.fa-twitch:before{content:"\f1e8"}.fa-yelp:before{content:"\f1e9"}.fa-newspaper-o:before{content:"\f1ea"}.fa-wifi:before{content:"\f1eb"}.fa-calculator:before{content:"\f1ec"}.fa-paypal:before{content:"\f1ed"}.fa-google-wallet:before{content:"\f1ee"}.fa-cc-visa:before{content:"\f1f0"}.fa-cc-mastercard:before{content:"\f1f1"}.fa-cc-discover:before{content:"\f1f2"}.fa-cc-amex:before{content:"\f1f3"}.fa-cc-paypal:before{content:"\f1f4"}.fa-cc-stripe:before{content:"\f1f5"}.fa-bell-slash:before{content:"\f1f6"}.fa-bell-slash-o:before{content:"\f1f7"}.fa-trash:before{content:"\f1f8"}.fa-copyright:before{content:"\f1f9"}.fa-at:before{content:"\f1fa"}.fa-eyedropper:before{content:"\f1fb"}.fa-paint-brush:before{content:"\f1fc"}.fa-birthday-cake:before{content:"\f1fd"}.fa-area-chart:before{content:"\f1fe"}.fa-pie-chart:before{content:"\f200"}.fa-line-chart:before{content:"\f201"}.fa-lastfm:before{content:"\f202"}.fa-lastfm-square:before{content:"\f203"}.fa-toggle-off:before{content:"\f204"}.fa-toggle-on:before{content:"\f205"}.fa-bicycle:before{content:"\f206"}.fa-bus:before{content:"\f207"}.fa-ioxhost:before{content:"\f208"}.fa-angellist:before{content:"\f209"}.fa-cc:before{content:"\f20a"}.fa-shekel:before,.fa-sheqel:before,.fa-ils:before{content:"\f20b"}.fa-meanpath:before{content:"\f20c"}.fa-buysellads:before{content:"\f20d"}.fa-connectdevelop:before{content:"\f20e"}.fa-dashcube:before{content:"\f210"}.fa-forumbee:before{content:"\f211"}.fa-leanpub:before{content:"\f212"}.fa-sellsy:before{content:"\f213"}.fa-shirtsinbulk:before{content:"\f214"}.fa-simplybuilt:before{content:"\f215"}.fa-skyatlas:before{content:"\f216"}.fa-cart-plus:before{content:"\f217"}.fa-cart-arrow-down:before{content:"\f218"}.fa-diamond:before{content:"\f219"}.fa-ship:before{content:"\f21a"}.fa-user-secret:before{content:"\f21b"}.fa-motorcycle:before{content:"\f21c"}.fa-street-view:before{content:"\f21d"}.fa-heartbeat:before{content:"\f21e"}.fa-venus:before{content:"\f221"}.fa-mars:before{content:"\f222"}.fa-mercury:before{content:"\f223"}.fa-intersex:before,.fa-transgender:before{content:"\f224"}.fa-transgender-alt:before{content:"\f225"}.fa-venus-double:before{content:"\f226"}.fa-mars-double:before{content:"\f227"}.fa-venus-mars:before{content:"\f228"}.fa-mars-stroke:before{content:"\f229"}.fa-mars-stroke-v:before{content:"\f22a"}.fa-mars-stroke-h:before{content:"\f22b"}.fa-neuter:before{content:"\f22c"}.fa-genderless:before{content:"\f22d"}.fa-facebook-official:before{content:"\f230"}.fa-pinterest-p:before{content:"\f231"}.fa-whatsapp:before{content:"\f232"}.fa-server:before{content:"\f233"}.fa-user-plus:before{content:"\f234"}.fa-user-times:before{content:"\f235"}.fa-hotel:before,.fa-bed:before{content:"\f236"}.fa-viacoin:before{content:"\f237"}.fa-train:before{content:"\f238"}.fa-subway:before{content:"\f239"}.fa-medium:before{content:"\f23a"}.fa-yc:before,.fa-y-combinator:before{content:"\f23b"}.fa-optin-monster:before{content:"\f23c"}.fa-opencart:before{content:"\f23d"}.fa-expeditedssl:before{content:"\f23e"}.fa-battery-4:before,.fa-battery-full:before{content:"\f240"}.fa-battery-3:before,.fa-battery-three-quarters:before{content:"\f241"}.fa-battery-2:before,.fa-battery-half:before{content:"\f242"}.fa-battery-1:before,.fa-battery-quarter:before{content:"\f243"}.fa-battery-0:before,.fa-battery-empty:before{content:"\f244"}.fa-mouse-pointer:before{content:"\f245"}.fa-i-cursor:before{content:"\f246"}.fa-object-group:before{content:"\f247"}.fa-object-ungroup:before{content:"\f248"}.fa-sticky-note:before{content:"\f249"}.fa-sticky-note-o:before{content:"\f24a"}.fa-cc-jcb:before{content:"\f24b"}.fa-cc-diners-club:before{content:"\f24c"}.fa-clone:before{content:"\f24d"}.fa-balance-scale:before{content:"\f24e"}.fa-hourglass-o:before{content:"\f250"}.fa-hourglass-1:before,.fa-hourglass-start:before{content:"\f251"}.fa-hourglass-2:before,.fa-hourglass-half:before{content:"\f252"}.fa-hourglass-3:before,.fa-hourglass-end:before{content:"\f253"}.fa-hourglass:before{content:"\f254"}.fa-hand-grab-o:before,.fa-hand-rock-o:before{content:"\f255"}.fa-hand-stop-o:before,.fa-hand-paper-o:before{content:"\f256"}.fa-hand-scissors-o:before{content:"\f257"}.fa-hand-lizard-o:before{content:"\f258"}.fa-hand-spock-o:before{content:"\f259"}.fa-hand-pointer-o:before{content:"\f25a"}.fa-hand-peace-o:before{content:"\f25b"}.fa-trademark:before{content:"\f25c"}.fa-registered:before{content:"\f25d"}.fa-creative-commons:before{content:"\f25e"}.fa-gg:before{content:"\f260"}.fa-gg-circle:before{content:"\f261"}.fa-tripadvisor:before{content:"\f262"}.fa-odnoklassniki:before{content:"\f263"}.fa-odnoklassniki-square:before{content:"\f264"}.fa-get-pocket:before{content:"\f265"}.fa-wikipedia-w:before{content:"\f266"}.fa-safari:before{content:"\f267"}.fa-chrome:before{content:"\f268"}.fa-firefox:before{content:"\f269"}.fa-opera:before{content:"\f26a"}.fa-internet-explorer:before{content:"\f26b"}.fa-tv:before,.fa-television:before{content:"\f26c"}.fa-contao:before{content:"\f26d"}.fa-500px:before{content:"\f26e"}.fa-amazon:before{content:"\f270"}.fa-calendar-plus-o:before{content:"\f271"}.fa-calendar-minus-o:before{content:"\f272"}.fa-calendar-times-o:before{content:"\f273"}.fa-calendar-check-o:before{content:"\f274"}.fa-industry:before{content:"\f275"}.fa-map-pin:before{content:"\f276"}.fa-map-signs:before{content:"\f277"}.fa-map-o:before{content:"\f278"}.fa-map:before{content:"\f279"}.fa-commenting:before{content:"\f27a"}.fa-commenting-o:before{content:"\f27b"}.fa-houzz:before{content:"\f27c"}.fa-vimeo:before{content:"\f27d"}.fa-black-tie:before{content:"\f27e"}.fa-fonticons:before{content:"\f280"}.fa-reddit-alien:before{content:"\f281"}.fa-edge:before{content:"\f282"}.fa-credit-card-alt:before{content:"\f283"}.fa-codiepie:before{content:"\f284"}.fa-modx:before{content:"\f285"}.fa-fort-awesome:before{content:"\f286"}.fa-usb:before{content:"\f287"}.fa-product-hunt:before{content:"\f288"}.fa-mixcloud:before{content:"\f289"}.fa-scribd:before{content:"\f28a"}.fa-pause-circle:before{content:"\f28b"}.fa-pause-circle-o:before{content:"\f28c"}.fa-stop-circle:before{content:"\f28d"}.fa-stop-circle-o:before{content:"\f28e"}.fa-shopping-bag:before{content:"\f290"}.fa-shopping-basket:before{content:"\f291"}.fa-hashtag:before{content:"\f292"}.fa-bluetooth:before{content:"\f293"}.fa-bluetooth-b:before{content:"\f294"}.fa-percent:before{content:"\f295"}.fa-gitlab:before{content:"\f296"}.fa-wpbeginner:before{content:"\f297"}.fa-wpforms:before{content:"\f298"}.fa-envira:before{content:"\f299"}.fa-universal-access:before{content:"\f29a"}.fa-wheelchair-alt:before{content:"\f29b"}.fa-question-circle-o:before{content:"\f29c"}.fa-blind:before{content:"\f29d"}.fa-audio-description:before{content:"\f29e"}.fa-volume-control-phone:before{content:"\f2a0"}.fa-braille:before{content:"\f2a1"}.fa-assistive-listening-systems:before{content:"\f2a2"}.fa-asl-interpreting:before,.fa-american-sign-language-interpreting:before{content:"\f2a3"}.fa-deafness:before,.fa-hard-of-hearing:before,.fa-deaf:before{content:"\f2a4"}.fa-glide:before{content:"\f2a5"}.fa-glide-g:before{content:"\f2a6"}.fa-signing:before,.fa-sign-language:before{content:"\f2a7"}.fa-low-vision:before{content:"\f2a8"}.fa-viadeo:before{content:"\f2a9"}.fa-viadeo-square:before{content:"\f2aa"}.fa-snapchat:before{content:"\f2ab"}.fa-snapchat-ghost:before{content:"\f2ac"}.fa-snapchat-square:before{content:"\f2ad"}.fa-pied-piper:before{content:"\f2ae"}.fa-first-order:before{content:"\f2b0"}.fa-yoast:before{content:"\f2b1"}.fa-themeisle:before{content:"\f2b2"}.fa-google-plus-circle:before,.fa-google-plus-official:before{content:"\f2b3"}.fa-fa:before,.fa-font-awesome:before{content:"\f2b4"}.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0, 0, 0, 0);border:0}.sr-only-focusable:active,.sr-only-focusable:focus{position:static;width:auto;height:auto;margin:0;overflow:visible;clip:auto}
