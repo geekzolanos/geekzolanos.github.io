@@ -2,13 +2,13 @@ const CacheName = 'precache-v1';
 const Runtime = 'runtime';
 
 const PRECACHE_URLS = [
-    '/index.html',
-    '/scripts/lib.min.js',
-    '/scripts/main.min.js',
-    '/scripts/modernizr.min.js',
-    '/scripts/vendor.min.js',
-    '/styles/main.min.css',
-    '/styles/vendor.min.css'
+    'index.html',
+    'scripts/lib.min.js',
+    'scripts/main.min.js',
+    'scripts/modernizr.min.js',
+    'scripts/vendor.min.js',
+    'styles/main.min.css',
+    'styles/vendor.min.css'
 ];
 
 self.addEventListener('install', e => {
