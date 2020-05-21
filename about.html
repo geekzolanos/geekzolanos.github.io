@@ -1,114 +1,345 @@
 <!DOCTYPE html>
-
 <html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>David Romero - Full Stack Developer</title>
+    <meta name="description" content="Personal Full Stack Developer Portfolio. Passionate about programming as a resource to build tomorrow's future. Checkout my showcase, contact and more.">
+    <meta name="keywords" content="david, full stack, portfolio, developer, showcase, programming, development">
+    
+    <meta property="og:title" content="David Romero - Full Stack Developer">
+    <meta property="og:url" content="https://geekzolanos.github.io/">
+    <meta property="og:image" content="/img/favicon-600x600.jpg">
+    <meta property="og:description" content="Personal Full Stack Developer Portfolio. Passionate about programming as a resource to build tomorrow's future. Checkout my showcase, contact and more.">
 
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Indice de aplicaciones</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="/img/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/img/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/img/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="shortcut icon" href="/img/favicon.ico">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="msapplication-config" content="/browserconfig.xml">
+    <meta name="theme-color" content="#000000">
 
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400" rel="stylesheet">
-  <link rel="stylesheet" href="css/styles-merged.css">
-  <link rel="stylesheet" href="css/style.min.css">
-  <link rel="stylesheet" href="css/custom.css">
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-PG4XZ5J');</script>
+    <!-- End Google Tag Manager -->
+    
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400" rel="stylesheet">
+    <link rel="stylesheet" href="/style/vendor.min.css">
+    <link rel="stylesheet" href="/style/main.min.css">    
 
-  <!--[if lt IE 9]>
-      <script src="js/vendor/html5shiv.min.js"></script>
-      <script src="js/vendor/respond.min.js"></script>
-    <![endif]-->
-</head>
+    <script src="/scripts/vendor.min.js"></script>
+    <script src="/scripts/main.min.js" defer></script>
+  </head>
+  <body> 
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PG4XZ5J"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
 
-<body>
+    <div id="main__loader" data-turbolinks-permanent></div>
+      
+    <!-- START: header -->
+    
+<nav class="navbar navbar-light navbar-expand-md p-5">
+    <a class="navbar-brand ml-4 lead text-white" href="/index.html">David Romero</a>    
+    <a href="#" class="nav__menu ml-auto"><i></i></a>
+</nav>
 
-  <!-- START: header -->
 
-  <div class="probootstrap-loader"></div>
 
-  <header role="banner" class="probootstrap-header">
-    <div class="container">
-      <a href="index.html" class="probootstrap-logo">#Geekzolanos</a>
+<div class="menu__container">
+    <div class="menu__content container h-100 d-flex flex-column align-items-center justify-content-center">        
+        <div class="content__wrapper">
+            <ul class="menu__list nav flex-column text-center">
+                <li class="list__link py-2">
+                    <a href="/index.html">Inicio</a>
+                </li>
 
-      <a href="#" class="probootstrap-burger-menu visible-xs"><i>Menu</i></a>
-      <div class="mobile-menu-overlay"></div>
+                <li class="list__link py-2">
+                    <a href="/portfolio.html">Portafolio</a>
+                </li>
 
-      <nav role="navigation" class="probootstrap-nav hidden-xs">
-        <ul class="probootstrap-main-nav">
-          <li><a href="index.html">Inicio</a></li>
-          <li class="active"><a href="about.html">Acerca</a></li>
-          <li><a href="projects.html">Proyectos</a></li>
+                <li class="list__link py-2 mb-1">
+                    <a href="/about.html">Acerca</a>
+                </li>            
+            </ul>
+        
+            <hr />            
+            <div class="row row-cols-md-2 row-cols-1 text-center py-3 py-md-4">
+                <div class="col">
+                    <div class="d-none d-md-block">
+                        <h6 class="text-white">Contacto</h6>
+                        <p>Estare encantado de atenderle, atendere sus inquietudes a la brevedad posible.</p>
+                    </div>
+                    <a href="https://form.jotform.com/200169155350650" 
+                       target="_blank" 
+                       class="btn btn-featured">
+                       <span><i class="icon-envelop"></i> Contacto</span>
+                       <i class="icon-arrow-right22"></i>
+                    </a>
+                </div>
+                <div class="col mt-3 mt-md-0">
+                    <div class="d-none d-md-block">
+                        <h6 class="text-white">Descargar Curriculum</h6>
+                        <p>Descargue el resumen curricular pulsando en la opcion de abajo</p>
+                    </div>
+                    <a href="https://drive.google.com/open?id=0B98iauQ7UCxPNFNvaS14ZDcwdDhValg3alMxMWFFVzd6WTVJ"
+                       target="_blank" 
+                       class="btn btn-featured">
+                        <span><i class="icon-profile"></i> Descargar</span>
+                        <i class="icon-arrow-right22"></i>
+                    </a>
+                </div>
+            </div>
+            <hr />
+
+            <ul class="list__social text-center p-0 m-0 mt-4">    
+    <li><a href="https://www.linkedin.com/in/david-romero-86227a126/" target="_blank"><i class="icon-linkedin"></i></a></li>
+    <li><a href="https://profile.codersrank.io/user/geekzolanos" target="_blank"><i class="icon-embed2"></i></a></li>
+    <li><a href="https://github.com/geekzolanos/" target="_blank"><i class="icon-github"></i></a></li>
+</ul>        
+        </div>
+        <div class="content__backdrop"></div>
+    </div>
+</div>
+
+    <!-- END: header -->
+
+    <div class="main__content container-fluid">
+       
+<section class="section__half section--sm-full min-vh-100 row">
+  
+  <div class="section__image corner--radius col-12 col-md-6 d-flex flex-column justify-content-center align-items-center pt-9 pb-5" style="background-image: linear-gradient(to top, #48c6ef 0%, #6f86d6 100%);">
+    
+    <div class="image__content w-60">      
+      <img src="/img/profile.png" class="img-fluid ml-n8" data-aos="fade-in" data-aos-duration="2500" />
+      <h5 class="font-weight-bold mt-3 mb-1 text-white">Acerca de</h5>
+      <h1 class="display-4 font-weight-bolder text-white" data-aos="section-title">David Romero</h1>
+    </div>
+  </div>
+  
+
+  
+  <div class="section__text col-12 col-md-6 py-4 py-md-0 d-flex align-items-center justify-content-center">
+    <div class="text__inner text-justify" data-aos="fade-right">
+      <p>Hola, soy David Romero 👋</p>
+      <p>Me apasiona la <i>&lt;programación /&gt;</i> como recurso para construir el futuro del mañana, haciendo uso de la tecnología, como el complemento ideal para alcanzar nuevas metas como sociedad.</p>
+      <p>Nacido en la ciudad de Ejido, Estado Mérida. Egresado de la Universidad de Falcon en el Estado Falcon, bajo el título de Ingeniero Electrónico, mención “Telecomunicaciones”.</p>
+
+      <div class="text-center text-md-left">
+        <div class="btn-group mt-5">
+            <a href="https://drive.google.com/open?id=0B98iauQ7UCxPNFNvaS14ZDcwdDhValg3alMxMWFFVzd6WTVJ" target="_blank" class="btn btn-outline-dark">
+                <i class="icon-profile mr-2"></i> Descargar Curriculum
+            </a>
+            <a href="https://form.jotform.com/200169155350650" 
+                target="_blank"
+                class="btn btn-outline-dark" 
+                data-toggle="tooltip" 
+                data-placement="top"
+                data-title="Enviar Mensaje">
+                <i class="icon-envelop"></i>
+            </a>
+        </div>
+      </div>
+    </div>
+
+    <small class="text__slide d-none d-md-block" data-aos="text-slide" data-aos-anchor=".section__text">Deslize para ver mas información</small>
+  </div>
+  
+</section>
+
+<section class="pt-8 pt-md-10">
+  <div class="container">
+    <div id="about__introduction" class="row align-items-center">
+      <div class="col-12 col-md-6 text-center order-1 order-md-0">
+        <div data-lottie="/img/lottie/programming.json" data-aos="zoom-in" data-aos-duration="1250"></div>
+        <cite class="small"><a href="https://lottiefiles.com/20051-programming" target="_blank">Programming</a> by Taurusa Mahda Saputra</cite>
+      </div>
+      <div class="col-12 col-md-6 text-justify">
+        <h1 class="mb-4">🔗 Introduccion</h1>        
+        <p data-aos="fade-up" data-aos-anchor="#about__introduction">Me encuentro en la búsqueda constante de nuevos conocimientos, y desafíos que resulten de motivación e impulso hacia el uso de nuevas tecnologías y el desarrollo de soluciones de mejor calidad.</p>
+        <h6 data-aos="fade-in" data-aos-delay="150" data-aos-anchor="#about__introduction">Considerado por mis colegas como:</h6>
+        <ul class="list-style-none pl-3">
+          <li data-aos="fade-right" data-aos-delay="200" data-aos-anchor="#about__introduction"><span>🙋‍♂</span> Una persona proactiva.</li>
+          <li data-aos="fade-right" data-aos-delay="250" data-aos-anchor="#about__introduction"><span>🤝</span> Habil en el trabajo en equipo.</li>
+          <li data-aos="fade-right" data-aos-delay="300" data-aos-anchor="#about__introduction"><span>🥵</span> Eficiente en el trabajo bajo presión.</li>
         </ul>
-        <div class="extra-text visible-xs">
-          <a href="#" class="probootstrap-burger-menu"><i>Menu</i></a>
-        </div>
-      </nav>
-    </div>
-  </header>
-  <!-- END: header -->
-
-  <div class="probootstrap-main">
-
-    <section class="probootstrap-section-half probootstrap-no-hover">
-      <div class="probootstrap-image" style="background-image: url(img/image_4.jpg)"></div>
-      <div class="probootstrap-text">
-        <div class="probootstrap-inner probootstrap-animate">
-          <h1 class="heading">Acerca</h1>
-          <p>Hola, soy David Romero. Un chico de 25 años actualmente residiendo en Falcon, Venezuela.</p>
-          <p>Me apasiona la programacion como recurso para construir el futuro del mañana, haciendo uso de la
-            tecnologia, como el complemento ideal para alcanzar nuevas metas como sociedad.</p>
-          <a href="https://form.jotform.com/200169155350650" target="_blank"><i class="icon-envelope"></i>
-            Contáctame</a>
-        </div>
-      </div>
-    </section>
-    <!-- END section -->
-
-
-    <section class="probootstrap-section">
-      <div class="container">
-        <div class="row mb70 probootstrap-animate" data-animate-effect="fadeIn">
-          <div class="col-md-6">
-            <h2>#Geekzolanos</h2>
-            <p>La iniciativa Geekzolanos, lleva su inspiracion bajo la premisa en
-              que la tecnología, debe ser el complemento ideal para facilitar las tareas cotidianas dentro del estilo de
-              vida
-              de las personas.</p>
-            <p>Se enfoca en proporcionar a personas sin un elevado conocimiento técnico, de soluciones que les facilite
-              la interacción con dichos recursos, obteniendo respuestas rápidas y precisas a sus requerimientos.</p>
-          </div>
-          <div class="col-md-6">
-            <h2>Full Stack</h2>
-            <p>Bajo la premisa del Desarrollo Full Stack, he colaborado con empresas bajo modalidad a distancia para la
-              construcción de soluciones completas a la medida de los requerimientos del cliente.</p>
-            <p>Asimismo, durante estos años me he desempeñado en el ámbito del Freelancing, el cual ofrece la
-              oportunidad única de tener una interacción directa con el cliente. Poniendo a prueba conocimientos, y
-              permitiendo adquirir nuevos en el camino.</p>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- END section -->
-  </div>
-
-  <footer class="probootstrap-footer">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12">
-          <p>Designed &amp; Developed by <a href="https://uicookies.com">uiCookies</a></p>
-        </div>
+        <h6 data-aos="fade-in" data-aos-delay="450" data-aos-anchor="#about__introduction">Durante el tiempo libre adoro:</h6>
+        <ul class="list-style-none pl-3">
+          <li data-aos="fade-right" data-aos-delay="500" data-aos-anchor="#about__introduction"><span>📖</span> La lectura</li>
+          <li data-aos="fade-right" data-aos-delay="550" data-aos-anchor="#about__introduction"><span>🧠</span> El descubrimiento de nuevos temas</li>
+          <li data-aos="fade-right" data-aos-delay="600" data-aos-anchor="#about__introduction"><span>🎮</span> Jugar a algún videojuego </li>
+          <li data-aos="fade-right" data-aos-delay="650" data-aos-anchor="#about__introduction"><span>💻</span> Colaborar con proyectos de la comunidad</li>
+          <li data-aos="fade-right" data-aos-delay="700" data-aos-anchor="#about__introduction"><span>🏞</span> El aire libre también es bien apreciado</li>
+        </ul>
+        <p data-aos="fade-up" data-aos-delay="1000" data-aos-anchor="#about__introduction">¡Hablando de la comunidad! En un mundo tan interconectado, considero un honor poder compartir conocimientos con colegas a escala global. Me apasiona la colaboración en proyectos Open Source y a menudo tomo un tiempo para atender dudas y participar en debates a través de comunidades como la Popular StackOverflow.</p>
       </div>
     </div>
-  </footer>
 
+    <hr class="my-9">
 
-  <div class="gototop js-top">
-    <a href="#" class="js-gotop"><i class="icon-chevron-thin-up"></i></a>
+    <div id="about__development" class="row align-items-center">
+      <div class="col-12 col-md-6 text-justify">
+        <h1 class="mb-4">🔗 Desarrollo Full Stack</h1>
+        <p data-aos="fade-up">Bajo la premisa del <b>Desarrollo Full Stack</b>, he colaborado con maravillosos equipos bajo modalidad a distancia para la construcción de soluciones completas a la medida de los requerimientos del cliente.</p>
+        <p data-aos="fade-up" data-aos-delay="150" data-aos-anchor="#about__development">Durante más de cinco años me he desempeñado en el ámbito del <i>Freelancing</i>, contando con la oportunidad de tener interacción directa con el cliente para el desarrollo de soluciones, partiendo de la toma de requerimientos, hasta la entrega y despliegue de un producto mínimo que traiga respuesta a sus necesidades.</p>
+        <p data-aos="fade-up" data-aos-delay="300" data-aos-anchor="#about__development">Asimismo, en el ámbito profesional, el trabajo en equipo y la gestión de proyectos resultan mi pasión. En donde, a través de una visión global y metodología agiles adecuadas, cada integrante aporta de forma integral: Dedicación, conocimientos y esfuerzo. Bloque por bloque hasta la entrega de resultados factibles, que proyecten el talento y la visión que nos representa 🌟</p>
+      </div>
+      <div class="col-12 col-md-6 text-center my-5 my-md-0">        
+        <div data-lottie="/img/lottie/protocols.json" data-aos="zoom-in" data-aos-duration="1250"></div>
+        <cite class="small"><a href="https://lottiefiles.com/5721-protocol" target="_blank">Protocol</a> by Andrey Drozdov</cite>
+      </div>
+    </div>    
   </div>
 
+  <section class="skills__container mt-9">
+    <div class="row py-8 align-items-center">
+      <div class="col-12 col-md-4 pl-5 pl-md-8 text-white text-justify">
+        <i class="icon-code display-4"></i>
+        <h1 class="text-white mb-4">El Stack</h1>
+        <p>Al igual que el albañil, los desarrolladores contamos con herramientas, que definen buena parte del perfil de calidad y dedicación aplicados en sus proyectos.</p>
+        <hr>
+        <div class="font-small">
+          <p class="mb-2 mt-4 font-weight-bolder">Herramientas:</p>
+          <ul class="pl-3 mb-0">
+            <li>Scripting bajo Python, Bash y Batch</li>
+          </ul>
+          <ul class="pl-3" style="columns: 2">     
+            <li>CodePen, Stackblitz</li>
+            <li>Adobe CC / GIMP</li>
+            <li>Visual Studio Code</li>
+            <li>Figma</li>
+            <li>Trello</li>
+            <li>GitHub</li>
+            <li>Postman</li>
+            <li>StarUML</li>
+            <li>HackMD</li>
+            <li>RegExr</li>
+            <li>Ngrok</li>
+            <li>Lapiz y Papel</li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-12 col-md-8 px-0 pl-md-5 mt-5 mt-md-0">
+        <div class="skills__slideshow rounded-lg mt-n4 pr-5">
+          <div class="swiper-wrapper p-4">
+              <div class="swiper-slide skill__card shadow-lg bg-light p-4" data-aos="fade-up" data-aos-anchor=".skills__slideshow">
+                <div class="heading text-center">
+                  <i class="icon-embed2 icon--lg"></i>
+                  <h4 class="mt-3">Frontend</h4>
+                  <small class="text-muted">Sitios web bajo CMS, estaticos y aplicaciones web modernas.</small>
+                </div>
+                <ul class="mt-3 pl-3">
+                  <li>HTML, CSS3, JS(ES9)</li>
+                  <li>SASS, TypeScript</li>
+                  <li>VueJS + Vuex / React + Context / Angular (2+)</li>
+                  <li>CMS y Otros stacks: Wordpress, Webflow, Gatsby</li>
+                  <li>Tambien: Bootstrap 4+, Foundation, Lottie</li>
+                </ul>
+              </div>
+              <div class="swiper-slide skill__card shadow-lg bg-light p-4" data-aos="fade-up" data-aos-delay="150" data-aos-anchor=".skills__slideshow">
+                <div class="heading text-center">
+                  <i class="icon-library icon--lg"></i>
+                  <h4 class="mt-3">Backend</h4>
+                  <small class="text-muted">APIs Stateful / Stateless, Push Messaging y Microservicios.</small>
+                </div>
+                <ul class="mt-3 pl-3">
+                  <li>NodeJS, Python, PHP, Java, .NET</li>
+                  <li>Express, Django, Flask, Laravel, CakePHP, Spring Boot, ASP.Net Core</li>
+                  <li>Bases de datos: MongoDB, MariaDB, Redis, PostgreSQL</li>
+                  <li>Microservicios: Eureka / Zuul</li>
+                </ul>
+              </div>
+              <div class="swiper-slide skill__card shadow-lg bg-light p-4" data-aos="fade-up" data-aos-delay="300" data-aos-anchor=".skills__slideshow">
+                <div class="heading text-center">
+                  <i class="icon-mobile icon--lg"></i>
+                  <h4 class="mt-3">Moviles</h4>
+                  <small class="text-muted">Aplicaciones moviles nativas y multiplataforma</small>
+                </div>
+                <ul class="mt-3 pl-3">
+                  <li>Apache Cordova</li>
+                  <li>Ionic</li>
+                  <li>Xamarin Forms</li>
+                  <li>React Native</li>
+                  <li>Android (Java + Kotlin)</li>
+                </ul>
+              </div>
+              <div class="swiper-slide skill__card shadow-lg bg-light p-4" data-aos="fade-up" data-aos-delay="450" data-aos-anchor=".skills__slideshow">
+                <div class="heading text-center">
+                  <i class="icon-display icon--lg"></i>
+                  <h4 class="mt-3">Escritorio</h4>
+                  <small class="text-muted">Aplicaciones profesionales de escritorio con soporte multiplataforma</small>
+                </div>
+                <ul class="mt-3 pl-3">
+                  <li>Electron</li>
+                  <li>Progressive Web Apps</li>
+                  <li>Xamarin Forms</li>
+                </ul>
+              </div>
+              <div class="swiper-slide skill__card shadow-lg bg-light p-4" data-aos="fade-up" data-aos-delay="600" data-aos-anchor=".skills__slideshow">
+                <div class="heading text-center">
+                  <i class="icon-cloud icon--lg"></i>
+                  <h4 class="mt-3">Cloud Computing</h4>
+                  <small class="text-muted">Despliegue y gestion de soluciones en plataformas de Cloud Computing.</small>
+                </div>
+                <ul class="mt-3 pl-3">
+                  <li>Firebase</li>
+                  <li>Heroku</li>
+                  <li>Google App Engine</li>
+                  <li>AWS Elastic Beanstalk</li>
+                </ul>
+              </div>
+              <div class="swiper-slide skill__card shadow-lg bg-light p-4" data-aos="fade-up" data-aos-delay="750" data-aos-anchor=".skills__slideshow">
+                <div class="heading text-center">
+                  <i class="icon-pacman icon--lg"></i>
+                  <h4 class="mt-3">Game Development</h4>
+                  <small class="text-muted">Desarrollo de juegos, simulaciones y escenarios interactivos.</small>
+                </div>
+                <ul class="mt-3 pl-3">
+                  <li>Unity3D</li>
+                  <li>ThreeJS</li>
+                </ul>
+              </div>
+          </div>
+          <div class="swiper-scrollbar"></div>
+        </div>
+      </div>
+    </div>
+  </section>
 
-  <script src="js/scripts.min.js"></script>
-  <script src="js/main.min.js"></script>
-  <script src="js/custom.js"></script>
+</section>
 
-</body>
 
+    </div>
+
+    <!-- START: footer  -->
+    <footer class="main__footer text-center">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <h2 class="font-weight-light text-white m-0 my-3">Sera un placer atenderle</h2>
+        <a class="btn btn-outline-light px-4" href="https://form.jotform.com/200169155350650" target="_blank">Contacto</a>
+        <ul class="list__social text-center p-0 m-0 mt-4">    
+    <li><a href="https://www.linkedin.com/in/david-romero-86227a126/" target="_blank"><i class="icon-linkedin"></i></a></li>
+    <li><a href="https://profile.codersrank.io/user/geekzolanos" target="_blank"><i class="icon-embed2"></i></a></li>
+    <li><a href="https://github.com/geekzolanos/" target="_blank"><i class="icon-github"></i></a></li>
+</ul>
+        <h6 class="text-white small mt-3">Diseñado a mano con 💗 © David Romero</h6>
+      </div>
+    </div>
+  </div>
+</footer>
+    <!-- END: footer -->
+
+
+    <div class="gototop js-top">
+      <a href="#" class="js-gotop"><i class="icon-chevron-thin-up"></i></a>
+    </div>
+  </body>
 </html>

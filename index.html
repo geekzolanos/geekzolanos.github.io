@@ -1,85 +1,365 @@
 <!DOCTYPE html>
-
 <html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>David Romero - Full Stack Developer</title>
+    <meta name="description" content="Personal Full Stack Developer Portfolio. Passionate about programming as a resource to build tomorrow's future. Checkout my showcase, contact and more.">
+    <meta name="keywords" content="david, full stack, portfolio, developer, showcase, programming, development">
+    
+    <meta property="og:title" content="David Romero - Full Stack Developer">
+    <meta property="og:url" content="https://geekzolanos.github.io/">
+    <meta property="og:image" content="/img/favicon-600x600.jpg">
+    <meta property="og:description" content="Personal Full Stack Developer Portfolio. Passionate about programming as a resource to build tomorrow's future. Checkout my showcase, contact and more.">
 
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Indice de aplicaciones</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="/img/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/img/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/img/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="shortcut icon" href="/img/favicon.ico">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="msapplication-config" content="/browserconfig.xml">
+    <meta name="theme-color" content="#000000">
 
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400" rel="stylesheet">
-  <link rel="stylesheet" href="css/styles-merged.css">
-  <link rel="stylesheet" href="css/style.min.css">
-  <link rel="stylesheet" href="css/custom.css">
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-PG4XZ5J');</script>
+    <!-- End Google Tag Manager -->
+    
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400" rel="stylesheet">
+    <link rel="stylesheet" href="/style/vendor.min.css">
+    <link rel="stylesheet" href="/style/main.min.css">    
 
-  <!--[if lt IE 9]>
-      <script src="js/vendor/html5shiv.min.js"></script>
-      <script src="js/vendor/respond.min.js"></script>
-    <![endif]-->
-</head>
+    <script src="/scripts/vendor.min.js"></script>
+    <script src="/scripts/main.min.js" defer></script>
+  </head>
+  <body> 
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PG4XZ5J"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
 
-<body>
+    <div id="main__loader" data-turbolinks-permanent></div>
+      
+    <!-- START: header -->
+    
+<nav class="navbar navbar-light navbar-expand-md p-5">
+    <a class="navbar-brand ml-4 lead text-white" href="/index.html">David Romero</a>    
+    <a href="#" class="nav__menu ml-auto"><i></i></a>
+</nav>
 
-  <!-- START: header -->
 
-  <div class="probootstrap-loader"></div>
 
-  <header role="banner" class="probootstrap-header">
-    <div class="container">
-      <a href="index.html" class="probootstrap-logo">#Geekzolanos</a>
+<div class="menu__container">
+    <div class="menu__content container h-100 d-flex flex-column align-items-center justify-content-center">        
+        <div class="content__wrapper">
+            <ul class="menu__list nav flex-column text-center">
+                <li class="list__link py-2">
+                    <a href="/index.html">Inicio</a>
+                </li>
 
-      <a href="#" class="probootstrap-burger-menu visible-xs"><i>Menu</i></a>
-      <div class="mobile-menu-overlay"></div>
+                <li class="list__link py-2">
+                    <a href="/portfolio.html">Portafolio</a>
+                </li>
 
-      <nav role="navigation" class="probootstrap-nav hidden-xs">
-        <ul class="probootstrap-main-nav">
-          <li class="active"><a href="index.html">Inicio</a></li>
-          <li><a href="about.html">Acerca</a></li>
-          <li><a href="projects.html">Proyectos</a></li>
-        </ul>
-        <div class="extra-text visible-xs">
-          <a href="#" class="probootstrap-burger-menu"><i>Menu</i></a>
+                <li class="list__link py-2 mb-1">
+                    <a href="/about.html">Acerca</a>
+                </li>            
+            </ul>
+        
+            <hr />            
+            <div class="row row-cols-md-2 row-cols-1 text-center py-3 py-md-4">
+                <div class="col">
+                    <div class="d-none d-md-block">
+                        <h6 class="text-white">Contacto</h6>
+                        <p>Estare encantado de atenderle, atendere sus inquietudes a la brevedad posible.</p>
+                    </div>
+                    <a href="https://form.jotform.com/200169155350650" 
+                       target="_blank" 
+                       class="btn btn-featured">
+                       <span><i class="icon-envelop"></i> Contacto</span>
+                       <i class="icon-arrow-right22"></i>
+                    </a>
+                </div>
+                <div class="col mt-3 mt-md-0">
+                    <div class="d-none d-md-block">
+                        <h6 class="text-white">Descargar Curriculum</h6>
+                        <p>Descargue el resumen curricular pulsando en la opcion de abajo</p>
+                    </div>
+                    <a href="https://drive.google.com/open?id=0B98iauQ7UCxPNFNvaS14ZDcwdDhValg3alMxMWFFVzd6WTVJ"
+                       target="_blank" 
+                       class="btn btn-featured">
+                        <span><i class="icon-profile"></i> Descargar</span>
+                        <i class="icon-arrow-right22"></i>
+                    </a>
+                </div>
+            </div>
+            <hr />
+
+            <ul class="list__social text-center p-0 m-0 mt-4">    
+    <li><a href="https://www.linkedin.com/in/david-romero-86227a126/" target="_blank"><i class="icon-linkedin"></i></a></li>
+    <li><a href="https://profile.codersrank.io/user/geekzolanos" target="_blank"><i class="icon-embed2"></i></a></li>
+    <li><a href="https://github.com/geekzolanos/" target="_blank"><i class="icon-github"></i></a></li>
+</ul>        
         </div>
-      </nav>
+        <div class="content__backdrop"></div>
     </div>
-  </header>
-  <!-- END: header -->
+</div>
 
-  <div class="probootstrap-main">
+    <!-- END: header -->
 
-    <section class="probootstrap-section-half probootstrap-no-hover">
-      <div class="probootstrap-image" style="background-image: url(img/image_2.jpg)"></div>
-      <div class="probootstrap-text">
-        <div class="probootstrap-inner probootstrap-animate">
-          <h1 class="heading">Hola</h1>
-          <p>¡Bienvenido! Por favor, utilize las opciones en el area superior para navegar a traves de las opciones del
-            site.</p>
-        </div>
-      </div>
-    </section>
-    <!-- END section -->
+    <div class="main__content container-fluid">
+      
+<section class="section__half vh-100 row">
+  
+  <div class="section__image col-12 col-md-6 d-flex flex-column justify-content-center align-items-center pt-9 pb-5" style="background-image: linear-gradient(to top, #48c6ef 0%, #6f86d6 100%);">
+    
+    <div id="image__particles" data-aos="fade-in"></div>
+
+    
+    <div class="image__content w-60 text-white">      
+      <h1 class="display-4 font-weight-bolder text-white" data-aos="section-title">Bienvenido</h1>
+      <p class="text-justify font-weight-light mt-4">El futuro es ahora. El momento perfecto para convertir tus ideas, en realidad.</p>
+    </div>
   </div>
+  
 
-  <footer class="probootstrap-footer">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12">
-          <p>Designed &amp; Developed by <a href="https://uicookies.com">uiCookies</a></p>
-        </div>
+  
+  <div class="section__text col-12 col-md-6 py-4 py-md-0 d-flex align-items-center justify-content-center">
+    <div class="text__inner text-justify" data-aos="fade-right">
+      <h1 class="mb-5"><i class="h1 icon-home2" style="color: #a3a3a3;"></i></h1>
+      <p>Hola, soy David Romero, desarrollo aplicaciones y servicios para múltiples propósitos con mas de 7 años de experiencia en el área. </p>
+      <p>Siéntase libre de dar un vistazo a mis proyectos recientes. Si gusta, puede dejar un mensaje, será un placer atenderle.</p>
+
+      <div class="btn-group mt-5">
+          <a href="/portfolio.html" class="btn btn-outline-dark">
+              <i class="icon-stack mr-2"></i> Portafolio
+          </a>
+          <a href="/about.html"
+              class="btn btn-outline-dark" 
+              data-toggle="tooltip" 
+              data-placement="top"
+              data-title="Acerca">
+              <i class="icon-profile"></i>
+          </a>
       </div>
     </div>
-  </footer>
 
-
-  <div class="gototop js-top">
-    <a href="#" class="js-gotop"><i class="icon-chevron-thin-up"></i></a>
+    <small class="text__slide d-none d-md-block" data-aos="text-slide" data-aos-anchor=".section__text">Deslize para ver mas información</small>
   </div>
+  
+</section>
 
 
-  <script src="js/scripts.min.js"></script>
-  <script src="js/main.min.js"></script>
-  <script src="js/custom.js"></script>
+  
 
-</body>
 
+
+
+<section class="featured section__half section--hover vh-100 row">
+    <div class="section__image col-12 col-md-6 py-4 py-md-0 " style="background-color: #1976D2">
+        
+        <div class="img-container absolute-center ">
+            <img data-lazyload="true" data-src="/img/packages/com.gk.medidores/thumb.png" />        
+        </div>
+        
+    </div>
+    
+    <div class="section__text col-12 col-md py-4 py-md-0 d-flex align-items-center justify-content-center">
+        <div class="text__inner text-justify" data-aos="fade-right" data-aos-easing="ease-in-out">
+            <div class="heading">
+                <h1 class="pb-0 d-inline-block">Registro de Medidores</h1>
+                <ul class="meta__platforms d-inline-block" data-aos="fade-down-small" data-aos-delay="400">
+                    
+    <li class="ml-1"
+        data-toggle=tooltip data-placement=top data-title=Android>
+        <i class="icon-android"></i>
+    </li>
+
+                </ul>
+            </div>
+
+            
+                <ul class="meta__lang mb-2" data-aos="fade-down-small" data-aos-delay="400">
+                    
+                        
+    <li class="mr-2"><i class="lang-color lang-java mr-1"></i> Java</li>
+
+                    
+                </ul>
+            
+
+            <p class="text-justify">Una aplicacion nativa desarrollada bajo Android para la gestion de mediciones electricas. Incluye registro de ubicacion, imagen y metadatos basicos (Direccion, Codigo de lector y medicion)</p>
+            
+            
+                
+    <style>
+        #btn-comgkmedidores {
+            border-color: #1976D2;
+        }
+        #btn-comgkmedidores:hover {
+            background-color: #1976D2;
+        }
+    </style>
+
+    <a href="/packages/com.gk.medidores.html" id="btn-comgkmedidores" class="btn btn-featured" data-aos="fade-in" data-aos-delay="600">
+        <span>Mas Información</span>
+        <i class="icon-arrow-right22"></i>
+    </a> 
+
+        </div>
+    </div>
+</section>
+
+  
+
+
+
+
+<section class="featured section__half section--hover vh-100 row">
+    <div class="section__image col-12 col-md-6 py-4 py-md-0 order-md-2" style="background-color: #01579B">
+        
+        <div class="img-container absolute-center ">
+            <img data-lazyload="true" data-src="/img/packages/com.geekzolanos.agile/thumb.png" />        
+        </div>
+        
+    </div>
+    
+    <div class="section__text col-12 col-md py-4 py-md-0 d-flex align-items-center justify-content-center">
+        <div class="text__inner text-justify" data-aos="fade-left" data-aos-easing="ease-in-out">
+            <div class="heading">
+                <h1 class="pb-0 d-inline-block">Agile Launcher</h1>
+                <ul class="meta__platforms d-inline-block" data-aos="fade-down-small" data-aos-delay="400">
+                    
+    <li class="ml-1"
+        data-toggle=tooltip data-placement=top data-title=Android>
+        <i class="icon-android"></i>
+    </li>
+
+                </ul>
+            </div>
+
+            
+                <ul class="meta__lang mb-2" data-aos="fade-down-small" data-aos-delay="400">
+                    
+                        
+    <li class="mr-2"><i class="lang-color lang-java mr-1"></i> Java</li>
+
+                    
+                </ul>
+            
+
+            <p class="text-justify">Un lanzador diseñado para dispositivos de bajos recursos que busca un rendimiento fluido, proporcionando una apariencia moderna y agradable.</p>
+            
+            
+                
+    <style>
+        #btn-comgeekzolanosagile {
+            border-color: #01579B;
+        }
+        #btn-comgeekzolanosagile:hover {
+            background-color: #01579B;
+        }
+    </style>
+
+    <a href="/packages/com.geekzolanos.agile.html" id="btn-comgeekzolanosagile" class="btn btn-featured" data-aos="fade-in" data-aos-delay="600">
+        <span>Mas Información</span>
+        <i class="icon-arrow-right22"></i>
+    </a> 
+
+        </div>
+    </div>
+</section>
+
+  
+
+
+
+
+<section class="featured section__half section--hover vh-100 row">
+    <div class="section__image col-12 col-md-6 py-4 py-md-0 " style="background-color: #FFB74D">
+        
+        <div class="img-container absolute-center feat-frame">
+            <img data-lazyload="true" data-src="/img/packages/org.umaven.web/thumb.png" />        
+        </div>
+        
+    </div>
+    
+    <div class="section__text col-12 col-md py-4 py-md-0 d-flex align-items-center justify-content-center">
+        <div class="text__inner text-justify" data-aos="fade-right" data-aos-easing="ease-in-out">
+            <div class="heading">
+                <h1 class="pb-0 d-inline-block">UMAVEN</h1>
+                <ul class="meta__platforms d-inline-block" data-aos="fade-down-small" data-aos-delay="400">
+                    
+    <li class="ml-1"
+        data-toggle=tooltip data-placement=top data-title=Web>
+        <i class="icon-html-five"></i>
+    </li>
+
+                </ul>
+            </div>
+
+            
+                <ul class="meta__lang mb-2" data-aos="fade-down-small" data-aos-delay="400">
+                    
+                        
+    <li class="mr-2"><i class="lang-color lang-wordpress mr-1"></i> WordPress</li>
+
+                    
+                </ul>
+            
+
+            <p class="text-justify">Sitio web oficial de UMAVEN: Una Mano para Venezuela y el Mundo.</p>
+            
+            
+                
+    <style>
+        #btn-orgumavenweb {
+            border-color: #FFB74D;
+        }
+        #btn-orgumavenweb:hover {
+            background-color: #FFB74D;
+        }
+    </style>
+
+    <a href="/packages/org.umaven.web.html" id="btn-orgumavenweb" class="btn btn-featured" data-aos="fade-in" data-aos-delay="600">
+        <span>Mas Información</span>
+        <i class="icon-arrow-right22"></i>
+    </a> 
+
+        </div>
+    </div>
+</section>
+
+
+
+    </div>
+
+    <!-- START: footer  -->
+    <footer class="main__footer text-center">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <h2 class="font-weight-light text-white m-0 my-3">Sera un placer atenderle</h2>
+        <a class="btn btn-outline-light px-4" href="https://form.jotform.com/200169155350650" target="_blank">Contacto</a>
+        <ul class="list__social text-center p-0 m-0 mt-4">    
+    <li><a href="https://www.linkedin.com/in/david-romero-86227a126/" target="_blank"><i class="icon-linkedin"></i></a></li>
+    <li><a href="https://profile.codersrank.io/user/geekzolanos" target="_blank"><i class="icon-embed2"></i></a></li>
+    <li><a href="https://github.com/geekzolanos/" target="_blank"><i class="icon-github"></i></a></li>
+</ul>
+        <h6 class="text-white small mt-3">Diseñado a mano con 💗 © David Romero</h6>
+      </div>
+    </div>
+  </div>
+</footer>
+    <!-- END: footer -->
+
+
+    <div class="gototop js-top">
+      <a href="#" class="js-gotop"><i class="icon-chevron-thin-up"></i></a>
+    </div>
+  </body>
 </html>
