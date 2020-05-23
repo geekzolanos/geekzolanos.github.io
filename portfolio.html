@@ -48,7 +48,17 @@
     
 <nav class="navbar navbar-light navbar-expand-md pb-0 px-5 pt-5 pb-md-5">
     <a class="navbar-brand ml-4 lead text-white" href="/index.html">David Romero</a>    
-    <a href="#" class="nav__menu ml-auto"><i></i></a>
+    <div class="navbar__right ml-auto">
+        <div class="dropdown mr-3" style="vertical-align: -2px; display: inline-block;">
+            <a class="btn btn-light dropdown-toggle" data-toggle="dropdown" data-l18n="language">Español</a>
+            <div class="dropdown-menu dropdown-menu-right">
+                <a href="#" class="dropdown-item" data-l18n-lang="es">Español</a>
+                <a href="#" class="dropdown-item" data-l18n-lang="en">English</a>
+            </div>
+        </div>
+
+        <a href="#" class="nav__menu"><i></i></a>
+    </div>
 </nav>
 
 
@@ -58,15 +68,15 @@
         <div class="content__wrapper mt-5 mt-md-0">
             <ul class="menu__list nav flex-column text-center">
                 <li class="list__link py-2">
-                    <a href="/index.html">Inicio</a>
+                    <a href="/index.html" data-l18n="home">Inicio</a>
                 </li>
 
                 <li class="list__link py-2">
-                    <a href="/portfolio.html">Portafolio</a>
+                    <a href="/portfolio.html" data-l18n="portfolio">Portafolio</a>
                 </li>
 
                 <li class="list__link py-2 mb-1">
-                    <a href="/about.html">Acerca</a>
+                    <a href="/about.html" data-l18n="about">Acerca</a>
                 </li>            
             </ul>
         
@@ -74,25 +84,25 @@
             <div class="row row-cols-md-2 row-cols-1 text-center py-3 py-md-4">
                 <div class="col">
                     <div class="d-none d-md-block">
-                        <h6 class="text-white">Contacto</h6>
-                        <p>Estare encantado de atenderle, atendere sus inquietudes a la brevedad posible.</p>
+                        <h6 class="text-white" data-l18n="contact">Contacto</h6>
+                        <p data-l18n="h-contact-p">Estare encantado de atenderle, atendere sus inquietudes a la brevedad posible.</p>
                     </div>
                     <a href="https://form.jotform.com/200169155350650" 
                        target="_blank" 
                        class="btn btn-featured">
-                       <span><i class="icon-envelop"></i> Contacto</span>
+                       <span><i class="icon-envelop mr-1"></i><span data-l18n="contact">Contacto</span></span>
                        <i class="icon-arrow-right22"></i>
                     </a>
                 </div>
                 <div class="col mt-3 mt-md-0">
                     <div class="d-none d-md-block">
-                        <h6 class="text-white">Descargar Curriculum</h6>
-                        <p>Descargue el resumen curricular pulsando en la opcion de abajo</p>
+                        <h6 class="text-white" data-l18n="h-summary">Descargar Curriculum</h6>
+                        <p data-l18n="h-summary-p">Descargue el resumen curricular pulsando en la opcion de abajo</p>
                     </div>
                     <a href="https://drive.google.com/open?id=0B98iauQ7UCxPNFNvaS14ZDcwdDhValg3alMxMWFFVzd6WTVJ"
                        target="_blank" 
                        class="btn btn-featured">
-                        <span><i class="icon-profile"></i> Descargar</span>
+                        <span><i class="icon-profile mr-1"></i><span data-l18n="download">Descargar</span></span>
                         <i class="icon-arrow-right22"></i>
                     </a>
                 </div>
@@ -122,8 +132,8 @@
 
       
       <div class="image__content w-60 text-white">      
-        <h1 class="display-4 font-weight-bolder text-white" data-aos="section-title">Portafolio</h1>
-        <p class="text-justify font-weight-light mt-4">Analice, pruebe, colabore con los proyectos disponibles en esta sección.</p>
+        <h1 class="display-4 font-weight-bolder text-white" data-aos="section-title" data-l18n="portfolio">Portafolio</h1>
+        <p class="text-justify font-weight-light mt-4" data-l18n="p-feat-desc">Analice, pruebe, colabore con los proyectos disponibles en esta sección.</p>
       </div>
     </div>
     
@@ -131,25 +141,25 @@
     
     <div class="section__text col-12 col-md-6 py-4 py-md-0 d-flex align-items-center justify-content-center">
       <div class="text__inner text-justify" data-aos="fade-right">
-        <p>Conozca más detalles y acceda al código fuente a través de repositorios públicos disponibles para la comunidad.</p>
-        <p>Tenga en consideración que algunos de estos pueden encontrarse en etapas tempranas de desarrollo. Por lo que podrían requerir trabajo adicional.</p>
+        <p data-l18n="p-feat-p0">Conozca más detalles y acceda al código fuente a través de repositorios públicos disponibles para la comunidad.</p>
+        <p data-l18n="p-feat-p1">Tenga en consideración que algunos de estos pueden encontrarse en etapas tempranas de desarrollo. Por lo que podrían requerir trabajo adicional.</p>
 
         
         <div class="portfolio__count mt-5">
           <h1 class="js-counter display-4 mb-2" data-to="7" data-speed="800" data-refresh-interval="10"></h1>
-          <h6 class="text-muted">Proyectos actuales</h6>
+          <h6 class="text-muted" data-l18n="p-feat-pr">Proyectos actuales</h6>
         </div>
       </div>
 
-      <small class="text__slide d-none d-md-block" data-aos="text-slide" data-aos-anchor=".section__text">Deslize para ver mas información</small>
+      <small class="text__slide d-none d-md-block" data-aos="text-slide" data-aos-anchor=".section__text" data-l18n="swipe-down">Deslize para ver mas información</small>
     </div>
     
   </section>
 
   <div class="container py-8">
     <div id="portfolio__header" class="text-center">
-      <h1 class="mt-5">Todos los proyectos</h1>
-      <p>Consulte a continuación el catálogo de proyectos creados.</p>
+      <h1 class="mt-5" data-l18n="p-pr-title">Todos los proyectos</h1>
+      <p data-l18n="p-pr-desc">Consulte a continuación el catálogo de proyectos creados.</p>
     </div>
 
     <div id="portfolio__filters" class="row row-cols-md-4 row-cols-1 justify-content-center w-75 mx-auto my-5">
@@ -159,24 +169,24 @@
 
       <div class="col mt-3 mt-md-0">
         <select id="portfolio-plt" multiple>
-          <option data-placeholder="true">Plataformas (Todas)</option>
+          <option data-placeholder="true" data-l18n="p-frm-pl">Plataformas (Todas)</option>
           <option data-icon="icon-windows8" value="win">Windows</option><option data-icon="icon-tux" value="linux">Linux</option><option data-icon="icon-appleinc" value="mac">macOS</option><option data-icon="icon-android" value="android">Android</option><option data-icon="icon-appleinc" value="ios">iOS</option><option data-icon="icon-html-five" value="web">Web</option><option data-icon="icon-codepen" value="unity3d">Unity3D</option>
         </select>
       </div>
 
       <div class="col mt-3 mt-md-0">
         <select id="portfolio-lang" multiple>
-          <option data-placeholder="true">Lenguajes (Todos)</option>
+          <option data-placeholder="true" data-l18n="p-frm-lang-all">Lenguajes (Todos)</option>
           <option value="js">JavaScript</option><option value="java">Java</option><option value="wordpress">WordPress</option><option value="c">C/C++</option><option value="csharp">C#</option>
         </select>
       </div>  
 
       <div class="col mt-3 mt-md-0">
         <select id="portfolio-filter">
-          <option value="0" selected>Fecha de subida (Mas reciente)</option>
-          <option value="1">Fecha de subida (Mas antiguo)</option>
-          <option value="2">Alfabeticamente (A-Z)</option>
-          <option value="3">Alfabeticamente (Z-A)</option>
+          <option value="0" selected data-l18n="p-frm-filter-new">Fecha de subida (Mas reciente)</option>
+          <option value="1" data-l18n="p-frm-filter-old">Fecha de subida (Mas antiguo)</option>
+          <option value="2" data-l18n="p-frm-filter-az">Alfabeticamente (A-Z)</option>
+          <option value="3" data-l18n="p-frm-filter-za">Alfabeticamente (Z-A)</option>
         </select>
       </div>
     </div>
@@ -189,7 +199,8 @@
 <div class="project__item phone-zoom"
     data-plt="android"
     data-lang="java"
-    data-date="1520049600000">
+    data-date="1520049600000"
+    data-l18n-pkg="com.gk.medidores">
 
     
     <div class="content" style="background-color: #1976D2;">
@@ -224,7 +235,7 @@
                         </div>
                         
 
-                        <p class="mb-0 mt-2">Gestion de mediciones electricas</p>
+                        <p class="mb-0 mt-2" data-l18n-pkg-prop="shortDescription">Gestion de mediciones electricas</p>
                     </div>
 
                     
@@ -250,7 +261,8 @@
 <div class="project__item phone-zoom"
     data-plt="android"
     data-lang="java"
-    data-date="1519876800000">
+    data-date="1519876800000"
+    data-l18n-pkg="com.geekzolanos.agile">
 
     
     <div class="content" style="background-color: #01579B;">
@@ -285,7 +297,7 @@
                         </div>
                         
 
-                        <p class="mb-0 mt-2">Un lanzador diferente</p>
+                        <p class="mb-0 mt-2" data-l18n-pkg-prop="shortDescription">Un lanzador diferente</p>
                     </div>
 
                     
@@ -311,7 +323,8 @@
 <div class="project__item "
     data-plt="win"
     data-lang="js"
-    data-date="1520049600000">
+    data-date="1520049600000"
+    data-l18n-pkg="com.geekzolanos.gedcom">
 
     
     <div class="content" style="background-color: #9E9D24;">
@@ -346,7 +359,7 @@
                         </div>
                         
 
-                        <p class="mb-0 mt-2">Convertidor de archivos GEDCOM a HTML</p>
+                        <p class="mb-0 mt-2" data-l18n-pkg-prop="shortDescription">Convertidor de archivos GEDCOM a HTML</p>
                     </div>
 
                     
@@ -372,7 +385,8 @@
 <div class="project__item "
     data-plt="web"
     data-lang="wordpress"
-    data-date="1520049600000">
+    data-date="1520049600000"
+    data-l18n-pkg="org.umaven.web">
 
     
     <div class="content" style="background-color: #FFB74D;">
@@ -407,7 +421,7 @@
                         </div>
                         
 
-                        <p class="mb-0 mt-2">Sitio web oficial</p>
+                        <p class="mb-0 mt-2" data-l18n-pkg-prop="shortDescription">Sitio web oficial</p>
                     </div>
 
                     
@@ -433,7 +447,8 @@
 <div class="project__item "
     data-plt="android"
     data-lang="c,java"
-    data-date="1520049600000">
+    data-date="1520049600000"
+    data-l18n-pkg="com.gk.aotf">
 
     
     <div class="content" style="background-color: #4DB6AC;">
@@ -472,7 +487,7 @@
                         </div>
                         
 
-                        <p class="mb-0 mt-2">ROM alternativa para el primer dispositivo FxOS del mercado</p>
+                        <p class="mb-0 mt-2" data-l18n-pkg-prop="shortDescription">ROM alternativa para el primer dispositivo FxOS del mercado</p>
                     </div>
 
                     
@@ -498,7 +513,8 @@
 <div class="project__item phone-zoom"
     data-plt="web,android"
     data-lang="js,java"
-    data-date="1520049600000">
+    data-date="1520049600000"
+    data-l18n-pkg="com.gk.speedgps">
 
     
     <div class="content" style="background-color: #F57F17;">
@@ -544,7 +560,7 @@
                         </div>
                         
 
-                        <p class="mb-0 mt-2">Comprueba la velocidad actual utilizando tecnicas de geolocalizacion</p>
+                        <p class="mb-0 mt-2" data-l18n-pkg-prop="shortDescription">Comprueba la velocidad actual utilizando tecnicas de geolocalizacion</p>
                     </div>
 
                     
@@ -570,7 +586,8 @@
 <div class="project__item "
     data-plt="web,unity3d"
     data-lang="csharp"
-    data-date="1520049600000">
+    data-date="1520049600000"
+    data-l18n-pkg="org.ateneo.hdri">
 
     
     <div class="content" style="background-color: #455A64;">
@@ -612,7 +629,7 @@
                         </div>
                         
 
-                        <p class="mb-0 mt-2">Paseo virtual en 3D a través de la Web</p>
+                        <p class="mb-0 mt-2" data-l18n-pkg-prop="shortDescription">Paseo virtual en 3D a través de la Web</p>
                     </div>
 
                     
@@ -642,14 +659,14 @@
   <div class="container">
     <div class="row">
       <div class="col-md-12">
-        <h2 class="font-weight-light text-white m-0 my-3">Sera un placer atenderle</h2>
-        <a class="btn btn-outline-light px-4" href="https://form.jotform.com/200169155350650" target="_blank">Contacto</a>
+        <h2 class="font-weight-light text-white m-0 my-3" data-l18n="f-title">Sera un placer atenderle</h2>
+        <a class="btn btn-outline-light px-4" href="https://form.jotform.com/200169155350650" target="_blank" data-l18n="contact">Contacto</a>
         <ul class="list__social text-center p-0 m-0 mt-4">    
     <li><a href="https://www.linkedin.com/in/david-romero-86227a126/" target="_blank"><i class="icon-linkedin"></i></a></li>
     <li><a href="https://profile.codersrank.io/user/geekzolanos" target="_blank"><i class="icon-embed2"></i></a></li>
     <li><a href="https://github.com/geekzolanos/" target="_blank"><i class="icon-github"></i></a></li>
 </ul>
-        <h6 class="text-white small mt-3">Diseñado a mano con 💗 © David Romero</h6>
+        <h6 class="text-white small mt-3" data-l18n="f-copyright">Diseñado a mano con 💗 © David Romero</h6>
       </div>
     </div>
   </div>

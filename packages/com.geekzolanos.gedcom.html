@@ -48,7 +48,17 @@
     
 <nav class="navbar navbar-light navbar-expand-md pb-0 px-5 pt-5 pb-md-5">
     <a class="navbar-brand ml-4 lead text-white" href="/index.html">David Romero</a>    
-    <a href="#" class="nav__menu ml-auto"><i></i></a>
+    <div class="navbar__right ml-auto">
+        <div class="dropdown mr-3" style="vertical-align: -2px; display: inline-block;">
+            <a class="btn btn-light dropdown-toggle" data-toggle="dropdown" data-l18n="language">Español</a>
+            <div class="dropdown-menu dropdown-menu-right">
+                <a href="#" class="dropdown-item" data-l18n-lang="es">Español</a>
+                <a href="#" class="dropdown-item" data-l18n-lang="en">English</a>
+            </div>
+        </div>
+
+        <a href="#" class="nav__menu"><i></i></a>
+    </div>
 </nav>
 
 
@@ -58,15 +68,15 @@
         <div class="content__wrapper mt-5 mt-md-0">
             <ul class="menu__list nav flex-column text-center">
                 <li class="list__link py-2">
-                    <a href="/index.html">Inicio</a>
+                    <a href="/index.html" data-l18n="home">Inicio</a>
                 </li>
 
                 <li class="list__link py-2">
-                    <a href="/portfolio.html">Portafolio</a>
+                    <a href="/portfolio.html" data-l18n="portfolio">Portafolio</a>
                 </li>
 
                 <li class="list__link py-2 mb-1">
-                    <a href="/about.html">Acerca</a>
+                    <a href="/about.html" data-l18n="about">Acerca</a>
                 </li>            
             </ul>
         
@@ -74,25 +84,25 @@
             <div class="row row-cols-md-2 row-cols-1 text-center py-3 py-md-4">
                 <div class="col">
                     <div class="d-none d-md-block">
-                        <h6 class="text-white">Contacto</h6>
-                        <p>Estare encantado de atenderle, atendere sus inquietudes a la brevedad posible.</p>
+                        <h6 class="text-white" data-l18n="contact">Contacto</h6>
+                        <p data-l18n="h-contact-p">Estare encantado de atenderle, atendere sus inquietudes a la brevedad posible.</p>
                     </div>
                     <a href="https://form.jotform.com/200169155350650" 
                        target="_blank" 
                        class="btn btn-featured">
-                       <span><i class="icon-envelop"></i> Contacto</span>
+                       <span><i class="icon-envelop mr-1"></i><span data-l18n="contact">Contacto</span></span>
                        <i class="icon-arrow-right22"></i>
                     </a>
                 </div>
                 <div class="col mt-3 mt-md-0">
                     <div class="d-none d-md-block">
-                        <h6 class="text-white">Descargar Curriculum</h6>
-                        <p>Descargue el resumen curricular pulsando en la opcion de abajo</p>
+                        <h6 class="text-white" data-l18n="h-summary">Descargar Curriculum</h6>
+                        <p data-l18n="h-summary-p">Descargue el resumen curricular pulsando en la opcion de abajo</p>
                     </div>
                     <a href="https://drive.google.com/open?id=0B98iauQ7UCxPNFNvaS14ZDcwdDhValg3alMxMWFFVzd6WTVJ"
                        target="_blank" 
                        class="btn btn-featured">
-                        <span><i class="icon-profile"></i> Descargar</span>
+                        <span><i class="icon-profile mr-1"></i><span data-l18n="download">Descargar</span></span>
                         <i class="icon-arrow-right22"></i>
                     </a>
                 </div>
@@ -113,7 +123,7 @@
 
     <div class="main__content container-fluid">
       
-<section id="single">
+<section id="single" data-l18n-pkg="com.geekzolanos.gedcom"">
   <section class="section__half corner--radius min-vh-100 row">
     
     <div class="section__image col-12 col-md-6 d-flex flex-column justify-content-center align-items-center pt-9 pb-5" style="background-color: #9E9D24;">
@@ -150,10 +160,12 @@
       </div>
       
 
-      
+      <div class="single__actions">
+        
     <div class="btn-group mt-5">
         <a href="#" target="_blank" class="btn btn-lg btn-outline-light">
-            <i class="icon-download2 mr-2"></i>Descargar (Win)
+            <i class="icon-download2 mr-2"></i>            
+            <span data-l18n-pkg-prop="actions[0][name]">Descargar (Win)</span>
         </a>
         <a href="https://github.com/geekzolanos/gedcom-converter" 
             target="_blank"
@@ -165,6 +177,7 @@
         </a>
     </div>
 
+      </div>
     </div>
     
 
@@ -172,7 +185,7 @@
     <div class="section__text col-12 col-md-6 py-4 py-md-0 d-flex align-items-center justify-content-center">
       <div class="text__inner text-justify">
         <div class="heading">
-          <h1 class="pb-0 d-inline-block">Gedcom Converter</h1>
+          <h1 class="pb-0 d-inline-block" data-l18n-pkg-prop="name">Gedcom Converter</h1>
           <ul class="meta__platforms d-inline-block" data-aos="fade-down-small" data-aos-delay="400">
               
     <li class="ml-1"
@@ -193,12 +206,12 @@
           </ul>
         
 
-        <p class="text-justify">Una aplicacion desarrollada en Electron para convertir archivos GEDCOM a formato, con implementacion de un sistema de plantillas basico.</p>
+        <p class="text-justify" data-l18n-pkg-prop="description">Una aplicacion desarrollada en Electron para convertir archivos GEDCOM a formato, con implementacion de un sistema de plantillas basico.</p>
 
         <div class="row meta__details mt-5">
           <div class="col-auto">
               <h1 class="my-0 text-muted">2018-03-03</h1>
-              <h6 class="my-0 mt-2 text-muted text-uppercase">Fecha de publicacion</h6>
+              <h6 class="my-0 mt-2 text-muted text-uppercase" data-l18n="publishDate">Fecha de publicacion</h6>
           </div>
           <div class="col mt-5 mt-md-0">
               <h1 class="my-0 text-muted">1.2.0</h1>
@@ -207,16 +220,17 @@
         </div>
       </div>
       
-      <small class="text__slide d-none d-md-block" data-aos="text-slide" data-aos-anchor=".section__text">Deslize para ver mas información</small>
+      <small class="text__slide d-none d-md-block" data-aos="text-slide" data-aos-anchor=".section__text" data-l18n="swipe-down">Deslize para ver mas información</small>
     </div>
     
   </section>
 
-  <section class="py-8 py-md-10 px-4">
+  
+  <section class="pt-8 pt-md-10 px-4">
     <div class="container">
-      <div class="row row-cols-md-3 row-cols-1">        
+      <div class="row row-cols-md-3 row-cols-1">
         <div class="col align-self-center">
-          <h1 class="features__heading">Caracteristicas</h1>
+          <h1 class="features__heading" data-l18n="features">Caracteristicas</h1>
         </div>
 
         <div class="col" data-aos="fade-up" data-aos-delay="0">          
@@ -225,8 +239,8 @@
                 <i class="icon-power"></i>
               </div>
               <div class="text text-justify">
-                <h3 class="heading">Rapido</h3>
-                <p>Convierta archivos GEDCOM grandes de forma rapida y sencilla, con excelente soporte de contenido y facil personalizacion. </p>
+                <h3 class="heading" data-l18n-pkg-prop="features[0][title]">Rapido</h3>
+                <p data-l18n-pkg-prop="features[0][description]">Convierta archivos GEDCOM grandes de forma rapida y sencilla, con excelente soporte de contenido y facil personalizacion. </p>
               </div>
             </div>
           </div><div class="col" data-aos="fade-up" data-aos-delay="200">          
@@ -235,8 +249,8 @@
                 <i class="icon-laptop"></i>
               </div>
               <div class="text text-justify">
-                <h3 class="heading">Multiplataforma</h3>
-                <p>Desarrollada bajo el popular Framework multiplataforma Electron. Gedcom Converter puede ser portado con facilidad a los sistemas operativos de mayor popularidad en el mercado. </p>
+                <h3 class="heading" data-l18n-pkg-prop="features[1][title]">Multiplataforma</h3>
+                <p data-l18n-pkg-prop="features[1][description]">Desarrollada bajo el popular Framework multiplataforma Electron. Gedcom Converter puede ser portado con facilidad a los sistemas operativos de mayor popularidad en el mercado. </p>
               </div>
             </div>
           </div><div class="col" data-aos="fade-up" data-aos-delay="400">          
@@ -245,8 +259,8 @@
                 <i class="icon-paint-format"></i>
               </div>
               <div class="text text-justify">
-                <h3 class="heading">Personalizable</h3>
-                <p>Agregue un indice de contenido, modifique la plantilla utilizada para la generacion de contenido y personalize los resultados a la medida de sus requerimientos. </p>
+                <h3 class="heading" data-l18n-pkg-prop="features[2][title]">Personalizable</h3>
+                <p data-l18n-pkg-prop="features[2][description]">Agregue un indice de contenido, modifique la plantilla utilizada para la generacion de contenido y personalize los resultados a la medida de sus requerimientos. </p>
               </div>
             </div>
           </div><div class="col" data-aos="fade-up" data-aos-delay="600">          
@@ -255,26 +269,33 @@
                 <i class="icon-make-group"></i>
               </div>
               <div class="text text-justify">
-                <h3 class="heading">Soporte de Google Adsense</h3>
-                <p>Sin necesidad de conocimientos tecnicos, unicamente especifique el Snippet proporcionado por el servicio y sera integrado de forma automatica para usted. </p>
+                <h3 class="heading" data-l18n-pkg-prop="features[3][title]">Soporte de Google Adsense</h3>
+                <p data-l18n-pkg-prop="features[3][description]">Sin necesidad de conocimientos tecnicos, unicamente especifique el Snippet proporcionado por el servicio y sera integrado de forma automatica para usted. </p>
               </div>
             </div>
           </div>
       </div>
+    </div>
+  </section>
+  
+</section>
 
-      <hr class="my-8">
 
-      <div class="related__grid">
-        <h1 class="text-center">Relacionados</h1>          
-        <div class="row align-items-start justify-content-center mt-5">
-          <div class="col-12 col-md-auto mt-4 mt-md-0">
-              
+<section>  
+  <div class="container pb-8 pb-md-10">
+    <hr class="my-8"/>
+    <div class="related__grid">
+      <h1 class="text-center" data-l18n="related">Relacionados</h1>          
+      <div class="row align-items-start justify-content-center mt-5">
+        <div class="col-12 col-md-auto mt-4 mt-md-0">
+            
 
 
 <div class="project__item phone-zoom"
     data-plt="android"
     data-lang="java"
-    data-date="1519876800000">
+    data-date="1519876800000"
+    data-l18n-pkg="com.geekzolanos.agile">
 
     
     <div class="content" style="background-color: #01579B;">
@@ -309,7 +330,7 @@
                         </div>
                         
 
-                        <p class="mb-0 mt-2">Un lanzador diferente</p>
+                        <p class="mb-0 mt-2" data-l18n-pkg-prop="shortDescription">Un lanzador diferente</p>
                     </div>
 
                     
@@ -328,14 +349,15 @@
     </div>
     
 </div>    
-            </div><div class="col-12 col-md-auto mt-4 mt-md-0">
-              
+          </div><div class="col-12 col-md-auto mt-4 mt-md-0">
+            
 
 
 <div class="project__item "
     data-plt="web"
     data-lang="wordpress"
-    data-date="1520049600000">
+    data-date="1520049600000"
+    data-l18n-pkg="org.umaven.web">
 
     
     <div class="content" style="background-color: #FFB74D;">
@@ -370,7 +392,7 @@
                         </div>
                         
 
-                        <p class="mb-0 mt-2">Sitio web oficial</p>
+                        <p class="mb-0 mt-2" data-l18n-pkg-prop="shortDescription">Sitio web oficial</p>
                     </div>
 
                     
@@ -389,13 +411,12 @@
     </div>
     
 </div>    
-            </div>
-        </div>
+          </div>
       </div>
     </div>
-  </section>
-  <!-- END section -->
+  </div>
 </section>
+
 
     </div>
 
@@ -404,14 +425,14 @@
   <div class="container">
     <div class="row">
       <div class="col-md-12">
-        <h2 class="font-weight-light text-white m-0 my-3">Sera un placer atenderle</h2>
-        <a class="btn btn-outline-light px-4" href="https://form.jotform.com/200169155350650" target="_blank">Contacto</a>
+        <h2 class="font-weight-light text-white m-0 my-3" data-l18n="f-title">Sera un placer atenderle</h2>
+        <a class="btn btn-outline-light px-4" href="https://form.jotform.com/200169155350650" target="_blank" data-l18n="contact">Contacto</a>
         <ul class="list__social text-center p-0 m-0 mt-4">    
     <li><a href="https://www.linkedin.com/in/david-romero-86227a126/" target="_blank"><i class="icon-linkedin"></i></a></li>
     <li><a href="https://profile.codersrank.io/user/geekzolanos" target="_blank"><i class="icon-embed2"></i></a></li>
     <li><a href="https://github.com/geekzolanos/" target="_blank"><i class="icon-github"></i></a></li>
 </ul>
-        <h6 class="text-white small mt-3">Diseñado a mano con 💗 © David Romero</h6>
+        <h6 class="text-white small mt-3" data-l18n="f-copyright">Diseñado a mano con 💗 © David Romero</h6>
       </div>
     </div>
   </div>

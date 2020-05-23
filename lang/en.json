@@ -1,0 +1,300 @@
+{
+    "language": "English",
+    "portfolio": "Portfolio",
+    "more-info": "More information",
+    "download": "Download",
+    "welcome": "Welcome!",
+    "publishDate": "Release date",
+    "features": "Features",
+    "related": "Related",
+    "action-more": "More actions",
+
+    "i-feat-desc": "The future is now. The perfect time to turn your ideas into reality.",
+    "i-feat-p0": "Hi, I'm David Romero, I develop applications and services for multiple purposes with more than 7 years of experience in the area.",
+    "i-feat-p1": "Feel free to take a look at my recent projects. If you like, you can leave a message, it will be a pleasure to assist you.",
+    "swipe-down": "Slide down to see more information",
+    
+    "home": "Home",
+    "about": "About",
+    "contact": "Contact",
+    "h-contact-p": "I will be happy to assist you, I will answer your questions as soon as possible.",
+    "h-summary": "Download Curriculum",
+    "h-summary-p": "Download the curriculum summary by clicking on the option below",
+    
+    "p-feat-desc": "Analyze, test, collaborate with the projects available in this section.",
+    "p-feat-p0": "Learn more details and access the source code through public repositories available to the community.",
+    "p-feat-p1": "Keep in mind that some of these may be in the early stages of development. They may require additional work.",
+    "p-feat-pr": "Current projects",
+    "p-pr-title": "All projects",
+    "p-pr-desc": "See below the catalogue of projects created.",
+    "p-frm-pl": "Platforms (All)",
+    "p-frm-lang-all": "Languages (All)",
+    "p-frm-filter-new": "Release date (Most recent)",
+    "p-frm-filter-old": "Release date (Most older)",
+    "p-frm-filter-az": "Alphabetically (A-Z)",
+    "p-frm-filter-za": "Alphabetically (Z-A)",
+
+    "a-feat": "About me",
+    "a-feat-p0": "Hi, I'm David Romero 👋",
+    "a-feat-p1": "I am passionate about <programming/> as a resource to build the future of tomorrow, using technology as the ideal complement to achieve new goals as society.",
+    "a-feat-p2": "Born in the city of Ejido, Merida. Graduated at the Universidad de Falcon, with a degree in Electronic Engineering (Telecommunications).",
+    "a-s0": "Introduction",
+    "a-s1": "Full Stack Development",
+    "a-s0-p0": "I'm in constant search of new knowledge and challenges to transform them in motivation and impulse towards the use of new technologies and the development of better quality solutions.",
+    "a-s0-p1": "Considered by my colleagues as:",
+    "a-s0-p1-s0": "A proactive person.",
+    "a-s0-p1-s1": "Who works as a team.",
+    "a-s0-p1-s2": "Efficient in working under pressure.",
+    "a-s0-p2": "During free time i love:",
+    "a-s0-p2-s0": "Reading",
+    "a-s0-p2-s1": "The discovery of new topics",
+    "a-s0-p2-s2": "Play some video games",
+    "a-s0-p2-s3": "Collaborate with community projects",
+    "a-s0-p2-s4": "The outdoors is also well appreciated",
+    "a-s0-p3": "Talk about community! In a world so interconnected, I consider it an honor to be able to share knowledge with colleagues on a global scale. I am passionate about collaboration on Open Source projects and often take time to answer questions and participate in discussions through communities like the Popular StackOverflow.",
+    "a-s1-p0": "Under the premise of Full Stack Development, I have collaborated with wonderful teams under remote mode for the construction of complete solutions tailored to customer requirements.",
+    "a-s1-p1": "For over five years I have worked in the field of Freelancing, having the opportunity to have direct interaction with the client for the development of solutions, from the taking of requirements, to the delivery and deployment of a minimum product that brings response to their needs.",
+    "a-s1-p2": "Likewise, in the professional field, teamwork and project management are my passion. Where, through a global vision and appropriate agile methodology, each member contributes in an integral way: Dedication, knowledge and effort. Block by block until the delivery of feasible results, which project the talent and vision that represents us 🌟",
+    "a-s2": "The Stack",
+    "a-s2-p0": "Like the builder, the developers have tools, which define much of the profile of quality and dedication applied in their projects.",
+    "a-s2-p1": "Tools",
+    "a-s2-p1-s0": "Scripting under Python, Bash y Batch",
+    "a-s2-p1-s1": "Pencil and paper",
+    "a-s2-p2-s0-i0": "Websites under CMS, static and modern web applications",
+    "a-s2-p2-s0-i1": "CMS and Other stacks: Wordpress, Webflow, Gatsby",
+    "a-s2-p2-s0-i2": "Also: Bootstrap 4+, Foundation, Lottie",
+    "a-s2-p2-s1-i0": "Databases: MongoDB, MariaDB, Redis, PostgreSQL",
+    "a-s2-p2-s1-i1": "Microservices: Eureka / Zuul",
+    "a-s2-p2-s2": "Mobile phones",
+    "a-s2-p2-s2-i0": "Native and multi-platform mobile applications",
+    "a-s2-p2-s3": "Desktop",
+    "a-s2-p2-s3-i0": "Professional desktop applications with cross-platform support",
+    "a-s2-p2-s4-i0": "Deployment and management of solutions in Cloud Computing platforms.",
+    "a-s2-p2-s5-i0": "Development of games, simulations and interactive scenarios.",
+
+    "f-title": "At your service",
+    "f-copyright": "Designed by hand with 💗 © David Romero",
+
+    "packages": {
+        "com.gk.medidores": {
+            "name": "Meter Registration",
+            "description": "A native application developed under Android for the management of electrical measurements. Includes location, image and basic metadata (address, reader code and measurement)",
+            "shortDescription": "Management of electrical measurements",
+            "features": [
+                {
+                    "title": "Capture locally",
+                    "description": "Register and store. Use as a foundation for the development of integration features tailored to your requirements."
+                },
+                {
+                    "title": "Location registration",
+                    "description": "Capture coordinates from your location with ease. The data obtained is presented to the user through direct integration with Google Maps."
+                },
+                {
+                    "title": "Reference image",
+                    "description": "Associate your measurement with a photograph, optionally, you will be assigned a random color in order to distinguish the records in the service."
+                },
+                {
+                    "title": "Easy to use",
+                    "description": "Navigate through a simple and intuitive interface, with integration of updated support libraries and ready to use as a foundation for future solutions."
+                }
+            ],
+            "actions": [
+                {
+                    "name": "View on Google Play"
+                },
+                {
+                    "name": "View source on GitHub"
+                }
+            ]
+        },
+        "com.geekzolanos.agile": {
+            "name": "Agile Launcher",
+            "description": "A launcher designed for low resource devices that seeks a fluid performance, providing a modern and pleasant appearance.",
+            "shortDescription": "A different launcher",
+            "features": [
+                {
+                    "title": "Easy to use",
+                    "description": "With a distinctive interface. Agile Launcher is easy to use, with no learning curve or complex tutorials. You'll be able to use its full potential right from the start."
+                },
+                {
+                    "title": "Lightweight",
+                    "description": "The launcher has been developed with a focus on backward compatibility support. Thanks to this, its operation has been successfully tested on Android 4.x devices with a minimum of 256 MB."
+                },
+                {
+                    "title": "Intuitive",
+                    "description": "Set up gestures to start applications without browsing lists, anchor applications to Quick Access, quickly access your device settings and customize your device."
+                },
+                {
+                    "title": "Information at your fingertips",
+                    "description": "Get immediate information about the weather, time and date of your region. Quickly access advanced information associated with your installed applications, without complex procedures."
+                }
+            ],
+            "actions": [
+                {
+                    "name": "View on Google Play"
+                },
+                {
+                    "name": "View source on GitHub"
+                }
+            ]
+        },
+        "com.geekzolanos.gedcom": {
+            "name": "Gedcom Converter",
+            "description": "An application developed in Electron to convert GEDCOM files to format, with implementation of a basic template system.",
+            "shortDescription": "GEDCOM to HTML File Converter",
+            "features": [
+                {
+                    "title": "Quickly",
+                    "description": "Convert large GEDCOM files quickly and easily, with excellent content support and easy customization."
+                },
+                {
+                    "title": "Multiplatform",
+                    "description": "Developed under the popular multi-platform Electron Framework. Gedcom Converter can be easily ported to the most popular operating systems on the market."
+                },
+                {
+                    "title": "Customizable",
+                    "description": "Add a content index, modify the template used for content generation and customize the results to your requirements."
+                },
+                {
+                    "title": "Google Adsense Support",
+                    "description": "Without technical knowledge, just specify the Snippet provided by the service and it will be automatically integrated for you."
+                }
+            ],
+            "actions": [
+                {
+                    "name": "Download (Win)"
+                },
+                {
+                    "name": "Watch on GitHub"
+                }
+            ]
+        },
+        "org.umaven.web": {
+            "name": "UMAVEN",
+            "description": "Official website of UMAVEN: One Hand for Venezuela and the World.",
+            "shortDescription": "Official Website",
+            "features": [
+                {
+                    "title": "Optimized for mobile phones",
+                    "description": "Responsive, compatible design, optimized for mid-range and higher end devices"
+                },
+                {
+                    "title": "Online Store",
+                    "description": "Access a virtual store, where you can buy products of excellent quality and thus contribute your grain of sand for our cause."
+                },
+                {
+                    "title": "Complete management",
+                    "description": "Advice and implementation of CMS for management by the team. Automatic updates and security notifications."
+                },
+                {
+                    "title": "Fast loading",
+                    "description": "Optimized resources for optimized site loading, providing a pleasant experience for the end user."
+                },
+                {
+                    "title": "Complete, Informative",
+                    "description": "Learn about the latest information associated with the foundation: Events, news, statutes, team information and more."
+                }
+            ],
+            "actions": [
+                {
+                    "name": "View website"
+                }
+            ]
+        },
+        "com.gk.aotf": {
+            "name": "Android For AOTF",
+            "description": "Custom build the popular operating system to support the first Firefox OS device on the market, the Alcatel One Touch Fire.",
+            "shortDescription": "Alternative ROM for the first FxOS device on the market",
+            "features": [
+                {
+                    "title": "Android 4 support.",
+                    "description": "Based on the source code available in the CodeAurora repositories, the system operates under the Android 4.0 version (Ice Cream Sandwich)"
+                },
+                {
+                    "title": "Multiple Start",
+                    "description": "Easily switch between Firefox OS and Android on your device, alternating with the integrated option from your launcher."
+                },
+                {
+                    "title": "Secure installation",
+                    "description": "Thanks to the design of the device and its SoC, you can perform the installation of the ROM without worrying about a permanent brick of the device."
+                },
+                {
+                    "title": "Overclocking",
+                    "description": "Overclock your device to 1.4 GHz for use in applications requiring additional power."
+                },
+                {
+                    "title": "Virtual Memory",
+                    "description": "Expand your device memory by using either Swap Memory in storage or MicroSD memory and enhance your overall usage experience."
+                }
+
+            ],
+            "actions": [
+                {
+                    "name": "View article"
+                }
+            ]
+        },
+        "com.gk.speedgps": {
+            "name": "SpeedGPS",
+            "description": "PWA initially developed for the Firefox Marketplace. Check the current speed using geolocation techniques.",
+            "shortDescription": "Check the current speed using geolocation techniques",
+            "features": [
+                {
+                    "title": "Multiplatform",
+                    "description": "Supported by Apache Cordoba as a PWA, it can be used from your browser, as a desktop application or mobile device and more."
+                },
+                {
+                    "title": "Easy to use",
+                    "description": "With a pleasant and fast interface, SpeedGPS provides the user with the ideal starting point to access all its functionalities. "
+                },
+                {
+                    "title": "Customizable",
+                    "description": "Specify conversion units, enable sound effects, notifications and vibration as needed."
+                },
+                {
+                    "title": "Complete information",
+                    "description": "Access all the information available from the Geolocation services on your device, in real time, and in readable format."
+                }
+            ],
+            "actions": [
+                {
+                    "name": "Go to the application"
+                },
+                {
+                    "name": "Watch on GitHub"
+                }
+            ]
+        },
+        "org.ateneo.hdri": {
+            "name": "Ateneo de Punto Fijo",
+            "description": "A virtual 3D walk through the facilities of the Ateneo de Punto Fijo \"Rubén Ismael Padilla\"",
+            "shortDescription": "A virtual 3D walk through the Web",
+            "features": [
+                {
+                    "title": "Access to the facilities",
+                    "description": "The environments have been recreated with the aim of providing you with the most complete experience possible. Browse through the main building, the theater, and even spaces such as the parking lot and back garden."
+                },
+                {
+                    "title": "Interactive",
+                    "description": "Get information at every stage of the tour, interact with paintings distributed in the facilities, get a pleasant experience with sound effects and more."
+                },
+                {
+                    "title": "WebGL Support",
+                    "description": "Thanks to the development under the popular Unity3D engine, you can enjoy the experience through the comfort of your browser."
+                },
+                {
+                    "title": "Support for low-end PCs",
+                    "description": "Step operation has been tested on low-end laptops and PCs, ensuring a pleasant experience for the end user."
+                }
+            ],
+            "actions": [
+                {
+                    "name": "Go to the website"
+                },
+                {
+                    "name": "Watch on GitHub"
+                }
+            ]
+        }
+    }
+}

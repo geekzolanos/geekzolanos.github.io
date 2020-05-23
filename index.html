@@ -48,7 +48,17 @@
     
 <nav class="navbar navbar-light navbar-expand-md pb-0 px-5 pt-5 pb-md-5">
     <a class="navbar-brand ml-4 lead text-white" href="/index.html">David Romero</a>    
-    <a href="#" class="nav__menu ml-auto"><i></i></a>
+    <div class="navbar__right ml-auto">
+        <div class="dropdown mr-3" style="vertical-align: -2px; display: inline-block;">
+            <a class="btn btn-light dropdown-toggle" data-toggle="dropdown" data-l18n="language">Español</a>
+            <div class="dropdown-menu dropdown-menu-right">
+                <a href="#" class="dropdown-item" data-l18n-lang="es">Español</a>
+                <a href="#" class="dropdown-item" data-l18n-lang="en">English</a>
+            </div>
+        </div>
+
+        <a href="#" class="nav__menu"><i></i></a>
+    </div>
 </nav>
 
 
@@ -58,15 +68,15 @@
         <div class="content__wrapper mt-5 mt-md-0">
             <ul class="menu__list nav flex-column text-center">
                 <li class="list__link py-2">
-                    <a href="/index.html">Inicio</a>
+                    <a href="/index.html" data-l18n="home">Inicio</a>
                 </li>
 
                 <li class="list__link py-2">
-                    <a href="/portfolio.html">Portafolio</a>
+                    <a href="/portfolio.html" data-l18n="portfolio">Portafolio</a>
                 </li>
 
                 <li class="list__link py-2 mb-1">
-                    <a href="/about.html">Acerca</a>
+                    <a href="/about.html" data-l18n="about">Acerca</a>
                 </li>            
             </ul>
         
@@ -74,25 +84,25 @@
             <div class="row row-cols-md-2 row-cols-1 text-center py-3 py-md-4">
                 <div class="col">
                     <div class="d-none d-md-block">
-                        <h6 class="text-white">Contacto</h6>
-                        <p>Estare encantado de atenderle, atendere sus inquietudes a la brevedad posible.</p>
+                        <h6 class="text-white" data-l18n="contact">Contacto</h6>
+                        <p data-l18n="h-contact-p">Estare encantado de atenderle, atendere sus inquietudes a la brevedad posible.</p>
                     </div>
                     <a href="https://form.jotform.com/200169155350650" 
                        target="_blank" 
                        class="btn btn-featured">
-                       <span><i class="icon-envelop"></i> Contacto</span>
+                       <span><i class="icon-envelop mr-1"></i><span data-l18n="contact">Contacto</span></span>
                        <i class="icon-arrow-right22"></i>
                     </a>
                 </div>
                 <div class="col mt-3 mt-md-0">
                     <div class="d-none d-md-block">
-                        <h6 class="text-white">Descargar Curriculum</h6>
-                        <p>Descargue el resumen curricular pulsando en la opcion de abajo</p>
+                        <h6 class="text-white" data-l18n="h-summary">Descargar Curriculum</h6>
+                        <p data-l18n="h-summary-p">Descargue el resumen curricular pulsando en la opcion de abajo</p>
                     </div>
                     <a href="https://drive.google.com/open?id=0B98iauQ7UCxPNFNvaS14ZDcwdDhValg3alMxMWFFVzd6WTVJ"
                        target="_blank" 
                        class="btn btn-featured">
-                        <span><i class="icon-profile"></i> Descargar</span>
+                        <span><i class="icon-profile mr-1"></i><span data-l18n="download">Descargar</span></span>
                         <i class="icon-arrow-right22"></i>
                     </a>
                 </div>
@@ -121,8 +131,8 @@
 
     
     <div class="image__content w-60 text-white">      
-      <h1 class="display-4 font-weight-bolder text-white" data-aos="section-title">Bienvenido</h1>
-      <p class="text-justify font-weight-light mt-4">El futuro es ahora. El momento perfecto para convertir tus ideas, en realidad.</p>
+      <h1 class="display-4 font-weight-bolder text-white" data-aos="section-title" data-l18n="welcome">Bienvenido</h1>
+      <p class="text-justify font-weight-light mt-4" data-l18n="i-feat-desc">El futuro es ahora. El momento perfecto para convertir tus ideas, en realidad.</p>
     </div>
   </div>
   
@@ -131,12 +141,12 @@
   <div class="section__text col-12 col-md-6 py-4 py-md-0 d-flex align-items-center justify-content-center">
     <div class="text__inner text-justify" data-aos="fade-right">
       <h1 class="mb-5"><i class="h1 icon-home2" style="color: #a3a3a3;"></i></h1>
-      <p>Hola, soy David Romero, desarrollo aplicaciones y servicios para múltiples propósitos con mas de 7 años de experiencia en el área. </p>
-      <p>Siéntase libre de dar un vistazo a mis proyectos recientes. Si gusta, puede dejar un mensaje, será un placer atenderle.</p>
+      <p data-l18n="i-feat-p0">Hola, soy David Romero, desarrollo aplicaciones y servicios para múltiples propósitos con mas de 7 años de experiencia en el área. </p>
+      <p data-l18n="i-feat-p1">Siéntase libre de dar un vistazo a mis proyectos recientes. Si gusta, puede dejar un mensaje, será un placer atenderle.</p>
 
       <div class="btn-group mt-5">
           <a href="/portfolio.html" class="btn btn-outline-dark">
-              <i class="icon-stack mr-2"></i> Portafolio
+              <i class="icon-stack mr-2"></i><span data-l18n="portfolio">Portafolio</span>
           </a>
           <a href="/about.html"
               class="btn btn-outline-dark" 
@@ -148,7 +158,7 @@
       </div>
     </div>
 
-    <small class="text__slide d-none d-md-block" data-aos="text-slide" data-aos-anchor=".section__text">Deslize para ver mas información</small>
+    <small class="text__slide d-none d-md-block" data-aos="text-slide" data-aos-anchor=".section__text" data-l18n="swipe-down">Deslize para ver mas información</small>
   </div>
   
 </section>
@@ -159,7 +169,7 @@
 
 
 
-<section class="featured section__half section--hover min-vh-100 row">
+<section class="featured section__half section--hover min-vh-100 row" data-l18n-pkg="com.gk.medidores">
     <div class="section__image col-12 col-md-6 py-4 py-md-0 " style="background-color: #1976D2">
         
         <div class="img-container absolute-center ">
@@ -171,7 +181,7 @@
     <div class="section__text col-12 col-md py-4 py-md-0 d-flex align-items-center justify-content-center">
         <div class="text__inner text-justify" data-aos="fade-right" data-aos-easing="ease-in-out">
             <div class="heading">
-                <h1 class="pb-0 d-inline-block">Registro de Medidores</h1>
+                <h1 class="pb-0 d-inline-block" data-l18n-pkg-prop="name">Registro de Medidores</h1>
                 <ul class="meta__platforms d-inline-block" data-aos="fade-down-small" data-aos-delay="400">
                     
     <li class="ml-1"
@@ -192,7 +202,7 @@
                 </ul>
             
 
-            <p class="text-justify">Una aplicacion nativa desarrollada bajo Android para la gestion de mediciones electricas. Incluye registro de ubicacion, imagen y metadatos basicos (Direccion, Codigo de lector y medicion)</p>
+            <p class="text-justify" data-l18n-pkg-prop="description">Una aplicacion nativa desarrollada bajo Android para la gestion de mediciones electricas. Incluye registro de ubicacion, imagen y metadatos basicos (Direccion, Codigo de lector y medicion)</p>
             
             
                 
@@ -206,7 +216,7 @@
     </style>
 
     <a href="/packages/com.gk.medidores.html" id="btn-comgkmedidores" class="btn btn-featured" data-aos="fade-in" data-aos-delay="600">
-        <span>Mas Información</span>
+        <span data-l18n="more-info">Mas Información</span>
         <i class="icon-arrow-right22"></i>
     </a> 
 
@@ -219,7 +229,7 @@
 
 
 
-<section class="featured section__half section--hover min-vh-100 row">
+<section class="featured section__half section--hover min-vh-100 row" data-l18n-pkg="com.geekzolanos.agile">
     <div class="section__image col-12 col-md-6 py-4 py-md-0 order-md-2" style="background-color: #01579B">
         
         <div class="img-container absolute-center ">
@@ -231,7 +241,7 @@
     <div class="section__text col-12 col-md py-4 py-md-0 d-flex align-items-center justify-content-center">
         <div class="text__inner text-justify" data-aos="fade-left" data-aos-easing="ease-in-out">
             <div class="heading">
-                <h1 class="pb-0 d-inline-block">Agile Launcher</h1>
+                <h1 class="pb-0 d-inline-block" data-l18n-pkg-prop="name">Agile Launcher</h1>
                 <ul class="meta__platforms d-inline-block" data-aos="fade-down-small" data-aos-delay="400">
                     
     <li class="ml-1"
@@ -252,7 +262,7 @@
                 </ul>
             
 
-            <p class="text-justify">Un lanzador diseñado para dispositivos de bajos recursos que busca un rendimiento fluido, proporcionando una apariencia moderna y agradable.</p>
+            <p class="text-justify" data-l18n-pkg-prop="description">Un lanzador diseñado para dispositivos de bajos recursos que busca un rendimiento fluido, proporcionando una apariencia moderna y agradable.</p>
             
             
                 
@@ -266,7 +276,7 @@
     </style>
 
     <a href="/packages/com.geekzolanos.agile.html" id="btn-comgeekzolanosagile" class="btn btn-featured" data-aos="fade-in" data-aos-delay="600">
-        <span>Mas Información</span>
+        <span data-l18n="more-info">Mas Información</span>
         <i class="icon-arrow-right22"></i>
     </a> 
 
@@ -279,7 +289,7 @@
 
 
 
-<section class="featured section__half section--hover min-vh-100 row">
+<section class="featured section__half section--hover min-vh-100 row" data-l18n-pkg="org.umaven.web">
     <div class="section__image col-12 col-md-6 py-4 py-md-0 " style="background-color: #FFB74D">
         
         <div class="img-container absolute-center feat-frame">
@@ -291,7 +301,7 @@
     <div class="section__text col-12 col-md py-4 py-md-0 d-flex align-items-center justify-content-center">
         <div class="text__inner text-justify" data-aos="fade-right" data-aos-easing="ease-in-out">
             <div class="heading">
-                <h1 class="pb-0 d-inline-block">UMAVEN</h1>
+                <h1 class="pb-0 d-inline-block" data-l18n-pkg-prop="name">UMAVEN</h1>
                 <ul class="meta__platforms d-inline-block" data-aos="fade-down-small" data-aos-delay="400">
                     
     <li class="ml-1"
@@ -312,7 +322,7 @@
                 </ul>
             
 
-            <p class="text-justify">Sitio web oficial de UMAVEN: Una Mano para Venezuela y el Mundo.</p>
+            <p class="text-justify" data-l18n-pkg-prop="description">Sitio web oficial de UMAVEN: Una Mano para Venezuela y el Mundo.</p>
             
             
                 
@@ -326,7 +336,7 @@
     </style>
 
     <a href="/packages/org.umaven.web.html" id="btn-orgumavenweb" class="btn btn-featured" data-aos="fade-in" data-aos-delay="600">
-        <span>Mas Información</span>
+        <span data-l18n="more-info">Mas Información</span>
         <i class="icon-arrow-right22"></i>
     </a> 
 
@@ -343,14 +353,14 @@
   <div class="container">
     <div class="row">
       <div class="col-md-12">
-        <h2 class="font-weight-light text-white m-0 my-3">Sera un placer atenderle</h2>
-        <a class="btn btn-outline-light px-4" href="https://form.jotform.com/200169155350650" target="_blank">Contacto</a>
+        <h2 class="font-weight-light text-white m-0 my-3" data-l18n="f-title">Sera un placer atenderle</h2>
+        <a class="btn btn-outline-light px-4" href="https://form.jotform.com/200169155350650" target="_blank" data-l18n="contact">Contacto</a>
         <ul class="list__social text-center p-0 m-0 mt-4">    
     <li><a href="https://www.linkedin.com/in/david-romero-86227a126/" target="_blank"><i class="icon-linkedin"></i></a></li>
     <li><a href="https://profile.codersrank.io/user/geekzolanos" target="_blank"><i class="icon-embed2"></i></a></li>
     <li><a href="https://github.com/geekzolanos/" target="_blank"><i class="icon-github"></i></a></li>
 </ul>
-        <h6 class="text-white small mt-3">Diseñado a mano con 💗 © David Romero</h6>
+        <h6 class="text-white small mt-3" data-l18n="f-copyright">Diseñado a mano con 💗 © David Romero</h6>
       </div>
     </div>
   </div>
